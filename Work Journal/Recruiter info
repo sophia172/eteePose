@@ -1,0 +1,170 @@
+ 
+Interview Confirmation - Software Engineer, Machine Learning (London)
+ 
+You will have a minimum of 5 interviews (the order of which can vary), each lasting 45 mins:
+x2 Coding Interviews
+x2 ML System Design Interview
+x1 Behavioral Interview
+ 
+Note: You may also have an additional interview added to your loop across coding, design or behavioural. We often add an additional interview slot for calibration purposes and to make sure you meet with a few engineers from different teams throughout the day providing you with an opportunity to ask questions and better understand Meta and our culture.
+ 
+Interview Logistics / Administrative Matters
+You should have received a separate email from me requesting for your availability. Please submit your availability as soon as possible and as many slots with wide duration as you can.
+Software required for remote interviews:
+All interviews will be facilitated via a Zoom Video Conference Session.
+During your coding interview, you will be using Coderpad (same format as your recent technical screening call.)
+During your design interview, you will be using Excalidraw. Please use this link to practice using the software prior to your interview -https://excalidraw.com/
+ 
+Interview Preparation
+To begin your interview preparation, please read through this email carefully along with the interview guide.
+ 
+Coding Interviews
+The two coding interviews will last 45 minutes each and follow a similar format to the previous coding interview you have completed where you will be asked to solve 2 coding questions, assessing your knowledge on computer science principles of data structures and algorithms. 
+ 
+You will be assessed in 4 areas: Problem Solving, Verification, Coding and Communication. It is important to note that in order to be successful, you will be required to demonstrate signals balanced across all of these areas. For example, if you perform strongly in problem solving and coding however, show serious lack of weakness in verification and communication, this could result in you being unsuccessful. 
+ 
+Tips to remember during your interview
+Communication 
+Ask clarification questions - talk through your problem with your interview and ask follow-up questions before beginning any coding. Make sure you understand exactly what the problem is asking for and what you need to do to solve it. Do not begin coding until you fully understand the problem. No question is invalid here - ask more rather than less.
+
+
+Present multiple potential solutions if possible - If there is more than one way to solve the problem, run the interviewer through all the options you could solve the problem, weighing up the pros and cons of each one before confirming verbally the solution you're going to implement and why.
+
+
+Don't forget to talk while you code - While your tech screen will focus heavily on coding, the engineer you're interviewing with will evaluate your thought process. Explain your decisions and walk the interviewer through step by step what you're solving. Explaining your decisions and actions as you go along will help your interview understand your choices.
+
+
+Iterate rather than immediately trying to jump to the clever solution - if you can't explain your concept clearly in five minutes, it's probably too complex.
+Problem Solving
+Be flexible - some problems have elegant solutions and some must be brute forced. If you get stuck, just describe your best approach and ask the interviewer if you should go that route. It's much better to have non-optimal but working code than just an idea with nothing written down.
+
+
+Expect questions - The interviewer may tweak the problem a bit to test your knowledge and see if you can come up with another answer and/or further optimize your solution.
+
+
+Take the interviewer's hints to improve your code - If the interviewer makes a suggestion or asks a question, listen fully so you can incorporate any hints they may provide.
+
+
+Ask yourself if you would approve your solution as part of your codebase - explain your answer to your interviewer. Make sure your solution is correct and efficient, that you've taken into account edge cases and that it clearly reflects the ideas you're trying to express in your code.
+
+
+Time and space complexity - ensure you have brushed up on time and space complexity as you will need to apply this to your solution. 
+Coding
+Code Quality - Ensure that your code is simple and easy to read. Please use the programming language that you are strongest in coding with as we will assess your clean and accurate your code is to read. We will not have time to test it so the code will need to be simple enough for the interviewers to read by eye. You want to aim to have implemented a clean optimised solution for each problem.
+
+
+Speed - You want to aim to solve both problems in the time given to you. If you are running out of time on the second problem, aim to implement the brute force solution and then verbally confirm to the interview how you would've optimised the solution with some extra time.
+
+
+Consider (and be prepared to talk about):
+- Different algorithms and algorithmic techniques, such as sorting, divide-and-conquer, recursion etc.
+- Data structures, particularly those used most often (array, stack/queue, hashset/hashmap/hashtable/dictionary, tree/binary tree, heap, graph, etc.)
+- O memory constraints on the complexity of the algorithm you're writing and it's running time as expressed by big-O notation. 
+Verification 
+Proactive verification - Make sure you are proactively verifying your solution. Do not wait for the interviewer to nudge you to verify your code. Ensure you are considering edge cases and corner cases and ideally, you should check your code line by line to ensure no bugs are undetected.
+
+
+Generally, avoid solutions with lots of edge cases or huge if/else if/else blocks, in most cases - deciding between iteration and recursions can be an important step. Please ensure you are proactively verifying your code and not leaning on the interviewer to nudge you.
+Resources for coding interview preparation:
+I would recommend solving a minimum of 100 questions on Leetcode - you want to aim to be able to solve a medium difficulty question within 20-25 minutes. Practice, practice and more practice should help!
+
+
+PRAMP - Peer to Peer coding interview preparation platform - https://www.pramp.com/#/
+
+
+Cracking the Meta Coding Interview - The Approach https://vimeo.com/interviewprepsession/theapproach (password is FB_IPS if it asks for this)
+
+
+Cracking The Meta Coding Interview - Problem Walk through https://vimeo.com/interviewprepsession/problemwalkthrough (password is FB_IPS if it asks for this)
+
+
+Previous questions from Meta Coding Interviews (don't rely on the solutions as they may be wrong but, the questions are legitimate) https://www.careercup.com/page?pid=facebook-interview-questions
+ML System Design Interview
+ 
+You will have 2 ML system design interview which will consist of 45 minutes. It is vital that you practice example questions on Excalidraw ahead of your interview in a 45-minute window to get comfortable with the tool and get a feel of how best to conduct the interview. As the ML system design interview is not an interview with a right or wrong answer like the coding interviews, it’s important to understand which areas to prioritise and how to break a problem down to know which areas to focus on. I would recommend attempting a minimum of 5 ML system design questions ahead of your interview. 
+ 
+During this interview, we will focus on your ability to build ML systems at scale. A strong performance in this interview indicates to your interviewer that you'd be successful in most applied ML problems here at Meta. You can expect your interviewer to ask you to; design a personalised news ranking system, design a product recommendation system or design an evaluation framework for ads ranking. We're not looking for you to know and memorise every ML algorithm that exist. Instead, you should be able to use your existing toolsets to model the problem and break down the components involved in building a large-scale ML system.
+ 
+Tips and tricks
+If the interviewer explains their project, you will be able to understand it, criticize the approach, propose variants, ask good questions, relate the algorithm to other known techniques. You are the kind of person who would look at our system and realize on your own that, say, our training data is biased in some way, or that we're overfitting, or that a different objective function or performance metric would be better. You could debug your own ML system. You would be able to contribute machine learning improvements to a project at Meta.- 
+You could start a new machine learning project like, say, a topic model, or collaborative filtering, or a hidden Markov model, or an improvement to a training method, or something similar. You could implement a technique from a paper. You have a sufficiently large ML tool set.
+You can frame a product goal as a machine learning problem, determine what could be used as training data and what you would be trying to optimize for. You can see multiple ways that a problem can be framed. If we add a twist to our question, can you adapt. You can propose something in most situations, even if it's just a simple baseline solution. You are familiar with offline evaluation metrics and A/B testing. 
+You are good at feature engineering. You can identify the key features for a particular application. You can describe them in detail and produce a formula. You can decide how to encode features (dense or sparse, binary or real value, bucketing…). You can describe what data needs to be stored. 
+Note that we're not looking for you to be an expert in ALL of these, but you should know enough of them to weigh design considerations and know when to consult an expert. 
+The attached document talks about the approach to this interview in depth.  There are relevant examples that you should look into.
+ 
+Thing you'll be assessed on during interview
+Problem Navigation (first 5 minutes) - Organise the problem space, the constraints, and potential solutions. Ask questions to systematically reduce ambiguity and target the most important problem to solve. Can you visualise and organise the entire problem and solution space? Can you connect the business context and needs to the ML decisions? I would aim to ask a minimum of 5-10 questions to ensure you have fully understood the problem. 
+Training data (5 minutes) - how would you identify methods to collect trading data? How do you look at the constraints/risks with a proposed method?
+Feature Engineering (5-10 minutes) - can you come up with relevant ML features for your model? How do you identify the most important features for the specific task?
+Modeling (5-10 minutes) - how do you explain modeling choices? Are you able to justify the decision to use a specific model? Can you anticipate risks and how do you mitigate those risks?
+Evaluation and Deployment (10-15 minutes) - can you design consistent evaluation and deployment techniques? How do you justify and articulate your choice of metrics to track?
+Technical Communication (things to consider throughout the whole interview)
+Approaches all topics and technical concepts in a focused, logical, and organized manner; makes complex topics easily digestible; is consistently crisp, clear, and accurate in technical discussions.
+Shares technical ideas in a clear, concise, and compelling manner; articulates complex, nuanced, or conflicting views in an easy-to-digest way; makes a compelling case for their design choice
+Show expert-level fluency for a given subject matter or in area of expertise (i.e., domain or pipeline) by integrating critical, complex, and relevant language / vocabulary into answer
+Thoroughly responds to technical questions from interviewer even when prompts and hints are indirect; incorporates feedback from interviewer and works backwards to debug any communication gaps; demonstrates attentive listening throughout discussion.
+ 
+Advanced Topics
+
+Monitoring / correctness / testability - ability to detect non-stationary distributions, changes in logging, differences between offline and online data (possible causes, user behaviour changing over time, feedback loops in the product etc.)
+Objectives - real ML systems frequently have to optimise the multiple difficult objectives and there are a variety of options (ML and non-ML) for dealing with this in different parts of the stack. It can also be very difficult to define / measure the true goals of a product or deal with imperfections in proxy metrics. Can you articulate some examples of these problems and how to deal with them?
+Extensibility - the ability to change the software system over time. In particular, how to deal with multiple engineers making changes to features, the product interface, training data etc. 
+Deployment - how to make sure that a bad model isn't deployed. How to roll a bad model back?
+Scalability - ability for the system to grow over time.
+ML depth - evidence that you are an expert in a particulatee area of ML - you should be able to go in-depth on how to properly use your expertise in the design of this problem. We'll also expect very experienced ML engineers to be able to discuss about very simply to very complex pieces of the ML stack and how to choose these options with ease.
+ 
+Resources for ML System Design Interview Preparation
+Please start off by reading our blog on how ML Systems are designed at Meta - https://research.facebook.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/
+Some other useful resources for you to review include; Meta Research Website, High Scalability Website and Field Guide to ML
+ 
+Behavioural Interview 
+The behavioural interview will last 45 minutes and be the non-technical part of the interview. Here, we will be deep diving on your soft skills that are important to our engineering culture at Meta in general. For this section, the interviewer will ask you a series of competency based questions assessing you against our values.
+
+
+We want to see you leaning in on previous experiences to demonstrate the signals we are assessing on. We want to find out about your experiences in your career and assess your maturity and behaviours in certain situations. In order to be successful, it is vital you prepare examples in your career against the signals being assessed.
+
+
+It is important that you focus on IMPACT. You only have 45 minutes to demonstrate these signals so the answers you give are what the interviewer will base their assessment on so focus on the most impactful examples. I.e. if you're asked to “talk about a project you’re proud of and why” then you should talk about an example that demonstrates a project which has had great impact and influence on the business and other people NOT a personal or small-scale project. The interviewer can only make an assessment based on the examples you give.
+Areas in which we're assessing for
+Motivations - talk about how you can learn from other people, that includes people in your team, other team and the wider company. Are you building or working on something impactful that had value for its users? Are you motivated by working in a fast-paced environment to deliver amazing results
+
+
+Conflict Resolution - You must have very good examples here of how you have effectively resolved difficult situations or disagreements. Ensure that your examples direct attention to the task at hand or goal rather than the person or people themselves. Are you somebody that can encourage opportunities and conversation where everyone feels confident to express their opinions? You should talk about how you can have self-reflection in a conflict too and take initiative to diffuse a situation. When you’re resolving a conflict, are you ensuring the steps you have taken are balanced and satisfy the thoughts of everyone involved and is the best decision for the team/project/company? Note – It is essential for senior engineers to have good examples of conflict resolution. NEVER discriminate or undermine people in your examples e.g. gender/age/race/ethnicity/political views and be sure not to talk about someone in a negative way.
+
+
+Empathy - you should be able to show how you can gauge the feelings of your team members and/or people in other teams and that you can promote a culture which encourages people to voice their opinions and thoughts, which in turn helps everyone to learn and work better together. You could talk about how you’re open to adopt ideas that may disagree with your ideas. Think about how you have these relationships with somebody you have reported to, a peer and also a team.
+
+
+Growth - Have examples that show how you have been open to constructive feedback and can strive to improve yourself. You should be able to talk about what motivates you and how this can relate to your growth. What are you doing to continually improve yourself? Can you talk about recognising mistakes or areas to improve beyond not making the same mistake again? It is ok to talk about mistakes, we want you to do this… it doesn’t show weakness. It’s likely that you will make mistakes in your role at FB, it’s how we grow.
+
+
+Being Proactive - Talk about how you can plan your work and use information ahead of time to minimise disruption and if there is an issue, that you can act on it quickly and resolve.
+
+
+Self Starter/Perseverance - Can you talk about an approach that ensures you’re executing tasks and delivering a project? You should talk about how you take ownership over the things that you can control and influence. Examples here should focus on projects with the biggest scope and impact. A good engineer can recognise problems however a Senior Engineer can recognise a problem and see it as an opportunity to grow and learn. Rather than seeing a problem as a blocker, you should be able to give examples of how you have undertaken responsibilities to solve a problem that can unblock yourself and also unblock other people.
+
+
+Working with ambiguity - Can you give examples of times that you have taken action in situations or environments where you perhaps don’t have everything you need or if things are unclear? Perhaps challenging the norm, even if it means there is a risk of failure, but ensuring you have a logical approach to a goal or final outcome.
+
+
+Communication - You should be able to talk confidently about your experiences and be able to communicate effectively. Don’t be afraid to talk about mistakes, conflict, achievements, motivations… this is completely normal. You should be answering with narratives about your experiences and “through the eyes” of a senior engineer. You have a finite amount of time to showcase these areas so be concise and focus on impact. You may receive follow-up questions to some of your answers - this is normal, be open to feedback and suggestions.
+Also - we're looking for experienced software engineers, so any examples around leading teams of projects, mentoring junior engineers, handling complex high impact projects and working at scale are key, so please focus on example that would demonstrate that. 
+ 
+When answering these questions, we are looking for you to give specific examples. We're be looking at your leadership experience, this could consist of a number of things from technical leadership, direction of projects or products, making architectural and design decisions to mentoring engineers and people management. We're interested in your passions and what you're motivated by, things like; What would you like to work on at Meta if you could on anything? What are the problems you enjoy problem solving? What have you learnt from past mistakes? Where you have taken feedback on board and acted on it? We're looking at your current role, what you're doing, your ownership and the impact you have had?
+ 
+It is a very thorough and deep conversation that requires you to communicate well, come with excellent examples of your own experience and ultimately an opportunity to really impress the interviewer; are you smart, passionate, introspective and empathetic? Many candidates make the mistake of not preparing well for this interview, please make sure you study and remain focused throughout. 
+ 
+Some example questions to practice and prepare for:
+Can you give an example of a valuable piece of feedback that you have received?
+Describe a time where you had a disagreement or conflict within your team.
+How would your co-workers describe you?
+Can you describe a situation where you had to work with a decision that you didn't agree with?
+Describe a technical mistake you have made recently?
+What's the most difficult/challenging problem you have had to solve?
+If things aren't going to plan, how do you move yourself/your projects forward?
+How do you seek our opportunities? (we really like candidates who are proactive at fixing/improving things)
+You can expect to be asked "What would you like to do at Meta? so be prepared to talk about specific interests of yours and how they relate to Meta as a tech company and/or product.
+We are looking for go-getters / people who can direct themselves and seek out opportunities. Think of some examples where you have been proactive on seeking out opportunities/solving problems without being told to do this.
+Resources for Behavioural Interview
+Interesting read about fixed vs growth mindset - https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/- 

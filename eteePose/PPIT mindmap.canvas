@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"type":"text","text":"<font size='12'>PPIT</font>","id":"53fd09b19f5c4514","x":80,"y":54,"width":164,"height":82},
+		{"type":"text","text":"<font size='6'>Document</font>","id":"18af5ce003474d63","x":-83,"y":220,"width":200,"height":80},
+		{"type":"text","text":"[pptx analysis log](<https://docs.google.com/presentation/d/1pY_B6-Ig_KGZVJCBx-IUggb7qSOtSjwMobfi9VyP33Q/edit#slide=id.g2521eccb78d_0_5>)","id":"8d28de5dacf3b0a9","x":-32,"y":360,"width":194,"height":60},
+		{"type":"text","text":"[data folder](<https://drive.google.com/drive/folders/1tCV8psdU8wz2WeFT41UqA7aP0NNRGEUC?usp=share_link>)","id":"71f94039053b3328","x":-12,"y":504,"width":152,"height":50},
+		{"type":"text","text":"[MIT_heatmap_script](<https://colab.research.google.com/drive/1P6-DJ_ny4Y2Ec9mQIJVZ9qzXqLuCTcXn#scrollTo=48kW1c2F5l1R>)","id":"06ac7718b4ac9151","x":-509,"y":4,"width":235,"height":50},
+		{"type":"text","text":"[Coordinates Visual script](<https://colab.research.google.com/drive/1TbIbfA40kuBXTEWUveEEHnl45lIeDkVD#scrollTo=4iQkgnn-TU0F>)","id":"2b94d101ca1e300f","x":-524,"y":106,"width":250,"height":60},
+		{"type":"text","text":"<font size='6'>Script</font>","id":"8df9efa1f8f7060b","x":-181,"y":54,"width":149,"height":80},
+		{"type":"file","file":"PPIT/PPIT Journal.md","id":"cd23c0c331a45dfa","x":360,"y":69,"width":275,"height":50},
+		{"id":"ffe70513ade9baf4","type":"text","text":"Pressure map","x":-602,"y":-231,"width":182,"height":50},
+		{"id":"ffe6c46cc5e20184","type":"text","text":"input","x":-391,"y":-142,"width":117,"height":57},
+		{"id":"6c177dc9a488220b","type":"text","text":"Electrode Signal","x":-465,"y":-311,"width":171,"height":59},
+		{"id":"ed01d4f1a6b8f4af","type":"text","text":"output","x":459,"y":-124,"width":130,"height":57},
+		{"id":"79355b4213baa576","type":"text","text":"Lower body prediction only","x":606,"y":-291,"width":250,"height":60},
+		{"id":"d02718e33d2636fa","type":"text","text":"Feet prediction only","x":360,"y":-266,"width":198,"height":71},
+		{"id":"1416b7fd3e038bce","type":"text","text":"Model","x":53,"y":-188,"width":128,"height":75},
+		{"id":"a37d3248ba4c1a72","type":"text","text":"Conventional model","x":-186,"y":-325,"width":203,"height":59},
+		{"id":"317436f366b3b599","type":"text","text":"DNN","x":15,"y":-354,"width":102,"height":63},
+		{"id":"4904e0502136e7e4","type":"text","text":"LSTM","x":140,"y":-361,"width":116,"height":50},
+		{"id":"06567b8c2f4e61ad","type":"text","text":"Liquid Reservoir","x":244,"y":-440,"width":182,"height":51},
+		{"id":"030c27e514bd3b19","x":333,"y":227,"width":302,"height":73,"type":"text","text":"<font size='6'>[[Pose Literature]]</font>"}
+	],
+	"edges":[
+		{"id":"02c803e4b72a2e61","fromNode":"71f94039053b3328","fromSide":"top","toNode":"8d28de5dacf3b0a9","toSide":"bottom"},
+		{"id":"bc0ce672a97527b4","fromNode":"53fd09b19f5c4514","fromSide":"bottom","toNode":"18af5ce003474d63","toSide":"top"},
+		{"id":"3b628dee6b266458","fromNode":"18af5ce003474d63","fromSide":"bottom","toNode":"8d28de5dacf3b0a9","toSide":"top"},
+		{"id":"50a44259400da198","fromNode":"53fd09b19f5c4514","fromSide":"left","toNode":"8df9efa1f8f7060b","toSide":"right"},
+		{"id":"c50abfa306de2d32","fromNode":"8df9efa1f8f7060b","fromSide":"left","toNode":"06ac7718b4ac9151","toSide":"right"},
+		{"id":"91496ef02499b0ad","fromNode":"8df9efa1f8f7060b","fromSide":"left","toNode":"2b94d101ca1e300f","toSide":"right"},
+		{"id":"67f58c54f88c84f2","fromNode":"53fd09b19f5c4514","fromSide":"right","toNode":"cd23c0c331a45dfa","toSide":"left"},
+		{"id":"e3ece67ac402bc71","fromNode":"53fd09b19f5c4514","fromSide":"top","toNode":"ffe6c46cc5e20184","toSide":"right"},
+		{"id":"67646a5032be40b9","fromNode":"ffe6c46cc5e20184","fromSide":"left","toNode":"ffe70513ade9baf4","toSide":"bottom"},
+		{"id":"53c76abf5b7cb466","fromNode":"ffe6c46cc5e20184","fromSide":"left","toNode":"6c177dc9a488220b","toSide":"bottom"},
+		{"id":"a730ad8f311a0f4e","fromNode":"53fd09b19f5c4514","fromSide":"top","toNode":"ed01d4f1a6b8f4af","toSide":"bottom"},
+		{"id":"4d5a664729f185ca","fromNode":"ed01d4f1a6b8f4af","fromSide":"top","toNode":"79355b4213baa576","toSide":"bottom"},
+		{"id":"fa9e78062095f7c7","fromNode":"ed01d4f1a6b8f4af","fromSide":"top","toNode":"d02718e33d2636fa","toSide":"bottom"},
+		{"id":"edd66068c2b2cee2","fromNode":"1416b7fd3e038bce","fromSide":"top","toNode":"a37d3248ba4c1a72","toSide":"bottom"},
+		{"id":"7688bdfd0a192d03","fromNode":"1416b7fd3e038bce","fromSide":"top","toNode":"317436f366b3b599","toSide":"bottom"},
+		{"id":"a5b724897024de12","fromNode":"1416b7fd3e038bce","fromSide":"top","toNode":"06567b8c2f4e61ad","toSide":"bottom"},
+		{"id":"f4203ea38fa21eaa","fromNode":"1416b7fd3e038bce","fromSide":"top","toNode":"4904e0502136e7e4","toSide":"bottom"}
+	]
+}
