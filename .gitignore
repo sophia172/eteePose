@@ -9,7 +9,7 @@ __pycache__/
 
 # Distribution / packaging
 
-Work\ Journal/
+Work_Journal/
 .Python
 build/
 develop-eggs/
