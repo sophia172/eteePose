@@ -27,7 +27,8 @@
 		{"id":"0919ef90127d0a5b","type":"text","text":"ESC","x":-604,"y":-779,"width":91,"height":50},
 		{"id":"475d7e84518b095d","type":"text","text":"Simplifier","x":-920,"y":-743,"width":160,"height":50},
 		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-611,"y":-1160,"width":246,"height":160},
-		{"id":"18041fb64b23c245","x":-488,"y":-909,"width":149,"height":56,"type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)"}
+		{"id":"18041fb64b23c245","type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)","x":-488,"y":-909,"width":149,"height":56},
+		{"id":"c2be12560b0c2168","x":-1062,"y":-878,"width":142,"height":99,"type":"text","text":"Transfer Learning"}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"6"},
@@ -56,6 +57,7 @@
 		{"id":"0d922f440e00670b","fromNode":"c5bbb3d7333f2ee0","fromSide":"top","toNode":"0919ef90127d0a5b","toSide":"bottom","color":"4"},
 		{"id":"b24be601e84966ff","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"475d7e84518b095d","toSide":"bottom","color":"6"},
 		{"id":"2c352f4ad773c912","fromNode":"475d7e84518b095d","fromSide":"top","toNode":"676ae2fda2a2c91a","toSide":"left","color":"6"},
-		{"id":"e746096c9030dc01","fromNode":"40614312f41e1138","fromSide":"top","toNode":"18041fb64b23c245","toSide":"bottom"}
+		{"id":"e746096c9030dc01","fromNode":"40614312f41e1138","fromSide":"top","toNode":"18041fb64b23c245","toSide":"bottom"},
+		{"id":"a8b75988091b3387","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"c2be12560b0c2168","toSide":"bottom"}
 	]
 }
