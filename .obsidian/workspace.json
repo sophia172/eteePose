@@ -11,28 +11,18 @@
             "id": "302898c5306fe5d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work Journal/TO-DO list.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c838a4579a51f27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work Journal/2024-10-15.md",
-                "mode": "source",
-                "source": false
+                "file": "eteePose/eteePose MindMap.canvas",
+                "viewState": {
+                  "x": -165,
+                  "y": -533.5,
+                  "zoom": -1.1490914980251468
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work Journal/2024-10-15.md",
+                "file": "eteePose/eteePose MindMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work Journal/2024-10-15.md",
+                "file": "eteePose/eteePose MindMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work Journal/2024-10-15.md"
+                "file": "eteePose/eteePose MindMap.canvas"
               }
             }
           },
@@ -168,11 +158,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c838a4579a51f27",
+  "active": "302898c5306fe5d7",
   "lastOpenFiles": [
-    "eteePose/eteePose MindMap.canvas",
-    "Work Journal/2024-10-15.md",
     "Work Journal/TO-DO list.md",
+    "Work Journal/2024-10-15.md",
+    "eteePose/eteePose MindMap.canvas",
     "Untitled.md",
     "Untitled.canvas",
     "Work Journal/2024-10-11.md",
