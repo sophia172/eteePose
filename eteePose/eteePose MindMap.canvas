@@ -25,7 +25,8 @@
 		{"id":"722d1622688c3be8","type":"text","text":"Joint angle","x":175,"y":-748,"width":130,"height":60},
 		{"id":"676ae2fda2a2c91a","type":"text","text":"ESR","x":-461,"y":-774,"width":125,"height":60},
 		{"id":"0919ef90127d0a5b","type":"text","text":"ESC","x":-604,"y":-779,"width":91,"height":50},
-		{"id":"475d7e84518b095d","x":-920,"y":-743,"width":160,"height":50,"type":"text","text":"Simplifier"}
+		{"id":"475d7e84518b095d","type":"text","text":"Simplifier","x":-920,"y":-743,"width":160,"height":50},
+		{"id":"499f54c24b9bbd89","x":-611,"y":-1160,"width":246,"height":160,"type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying"}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"6"},
