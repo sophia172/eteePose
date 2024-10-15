@@ -27,7 +27,7 @@
 		{"id":"0919ef90127d0a5b","type":"text","text":"ESC","x":-604,"y":-779,"width":91,"height":50},
 		{"id":"475d7e84518b095d","type":"text","text":"Simplifier","x":-920,"y":-743,"width":160,"height":50},
 		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-611,"y":-1160,"width":246,"height":160},
-		{"id":"18041fb64b23c245","x":-488,"y":-909,"width":149,"height":56,"type":"text","text":"[Pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)"}
+		{"id":"18041fb64b23c245","x":-488,"y":-909,"width":149,"height":56,"type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)"}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"6"},

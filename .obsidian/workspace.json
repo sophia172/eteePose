@@ -11,14 +11,11 @@
             "id": "302898c5306fe5d7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -229.76819592839286,
-                  "y": -839.6780496366681,
-                  "zoom": -0.5292051116306459
-                }
+                "file": "Work_Journal/2024-10-15.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
+                "file": "Work_Journal/2024-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
+                "file": "Work_Journal/2024-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas"
+                "file": "Work_Journal/2024-10-15.md"
               }
             }
           },
@@ -161,12 +158,12 @@
   },
   "active": "302898c5306fe5d7",
   "lastOpenFiles": [
-    "eteePose/Pose Literature.md",
+    "Work_Journal/TO-DO list.md",
     "eteePose/eteePose MindMap.canvas",
+    "eteePose/Pose Literature.md",
     "eteePose/PPIT To-Do List.md",
     "eteePose/PPIT mindmap.canvas",
     "gitignore.txt",
-    "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-10-15.md",
     "Untitled.md",
     "Untitled.canvas",
