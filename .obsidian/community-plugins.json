@@ -3,5 +3,6 @@
   "obsidian-custom-frames",
   "dataview",
   "obsidian-tasks-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-importer"
 ]
