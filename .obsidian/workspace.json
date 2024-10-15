@@ -27,9 +27,9 @@
               "state": {
                 "file": "eteePose/eteePose MindMap.canvas",
                 "viewState": {
-                  "x": 174.82216639401054,
-                  "y": -583.2227129296995,
-                  "zoom": -0.2491771814101076
+                  "x": -165,
+                  "y": -533.5,
+                  "zoom": -1.0588936890535687
                 }
               }
             }
@@ -144,13 +144,21 @@
                 "file": "eteePose/eteePose MindMap.canvas"
               }
             }
+          },
+          {
+            "id": "19da2a73dd17451b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,18 +167,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2c838a4579a51f27",
   "lastOpenFiles": [
     "Work Journal/TO-DO list.md",
     "Untitled.md",
+    "Untitled.canvas",
+    "eteePose/eteePose MindMap.canvas",
     "Work Journal/2024-10-11.md",
     "Work Journal/2024-10-07.md",
     "eteePose/PPIT mindmap.canvas",
-    "Untitled.canvas",
-    "eteePose/eteePose MindMap.canvas",
     "eteePose/PPIT To-Do List.md",
     "eteePose",
     "Welcome.md",
