@@ -168,7 +168,7 @@ Maintaining a consistent naming and organisational scheme is essential for effic
 - Maintain proper documentation for all datasets, including:
   - **Data Dictionary**: Describes the meaning, units, and types of data in both raw and processed forms.
   - **Metadata**: Include information on data sources, data collection dates, processing steps, and any data-related issues.
-  - **Data Walkthrough**: a slide including video, image to explain where the data is from. How each set of movement if performed. 
+  - **Data Walkthrough ([example](https://docs.google.com/presentation/d/1JWOa6WB5dIDsQuH1ctegB8nN9cTBWrPKPH9qe2HKGK4/edit?usp=sharing))** : a slide including video, image to explain where the data is from. How each set of movement if performed. 
 
 ### **10. Monitoring and Auditing**
 - Regularly monitor data usage and storage limits.
