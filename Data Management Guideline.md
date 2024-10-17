@@ -1,13 +1,12 @@
 
-
 ---
-
+17th Oct 2024
 ## **Data Management Guideline for Machine Learning Project**
 
 ### **1. Overview**
 This document outlines the data management practices for machine learning projects, focusing on data storage, organisation, and access. The primary storage options are:
-1. **Google Drive** for collaboration and smaller datasets (current stage).
-2. **Google Cloud Storage** for large datasets and more secure, scalable storage.
+- **Google Drive** for collaboration and smaller datasets (current stage).
+- **Google Cloud Storage** for large datasets and more secure, scalable storage.
 
 The data will be categorised into two types:
 - **Raw Data**: The original, unprocessed datasets.
@@ -56,16 +55,66 @@ Maintaining a consistent naming and organisational scheme is essential for effic
 - **Raw Data**: Contains the original data as obtained from sources. 
   - Sub-folders based on data sources, e.g., `/raw/date/individual_id/sensor`
   - Files should be named in the format: `movement_repeatition.csv`
+  - Add **Metadata** to include Hardware information, individual information and environment information in `.yml` file.
+	```yml
+	height: 160 # cm
+	weight: 50 # kg
+	foot_size: 20 # cm?
+	gendar: F
+	hand: right # right/left handed
+	location_ele_map:
+	  - [39, 35, 10, 22]
+	  - [12, 36, 9, 21]
+	  - [13, 37, 8, 20]
+	  - [14, 0, 7, 19]
+	  - [15, 1, 6, 18]
+	  - [16, 2, 5, 11]
+	  - [17, 3, 4, 38]
+	
+	pressure_ele_map:
+	  - [23, 34]
+	  - [24, 33]
+	  - [25, 32]
+	  - [26, 31]
+	  - [27, 30]
+	  - [28, 29]
+	
+	ui_grid:
+	  - 13
+	  - 6
+	  - 6 # (row in one module, column number in one module, number of module), MCU at left
+
+```
 
 - **Processed Data**: Contains data that has been cleaned and processed.
-  - Sub-folders based on the stages of processing, e.g., `/processed/cleaned/`, `/processed/features/`
+  - Sub-folders based on the processing date, e.g., `processed/date/sensorName/`, 
   - Files should be named in the format: `processed_version_date.csv`
 
 #### **3.2 File Naming Convention**
 - Use clear, descriptive file names.
-  - For **raw data**: `raw_source_version_YYYYMMDD.csv`
-  - For **processed data**: `processed_cleaned_version_YYYYMMDD.csv`
+  - For **raw data**: `/raw/date/individual_id/sensorName/*/set1_1.csv`. 
+    - `set1` means the first sequence of movement. 
+    - `_1` means the first trial of this set.
+  - For **processed data**: `processed/date/sensorName/YYYYMMDD_1_set1_1.csv`
+    - `YYYYMMDD` refers to the date this data was processed
+    - `_1_` refers to the data is from person 1.
+    -  `set1_1` is the same as file name in the **raw data** folder
 - Use versioning (`v1`, `v2`, etc.) to track different iterations of the same dataset.
+- Add log `.yml` for how this data is processed
+	```yml
+	20221019_1_set_1_1:
+	  date_folder: '20221019'
+	  foot_size: 20
+	  gendar: F
+	  hand: right
+	  height: 160
+	  individual: '1'
+	  keypoint_recording: path
+	  marker_set_path: path
+	  mat_recording: path
+	  set: set_1_1
+	  weight: 50
+```
 
 ### **4. Data Access Control and Permissions**
 
@@ -88,26 +137,25 @@ Maintaining a consistent naming and organisational scheme is essential for effic
 - Ensure that when a new version of a dataset is created (either raw or processed), the older version is not deleted immediately to prevent accidental data loss.
 
 #### **5.2 Backup**
-- Set up **automated backups** for Google Drive data using Google Takeout or third-party backup solutions.
-- Use **Google Cloud Storage Lifecycle Management** to automate the transition of older processed data to cheaper storage classes (e.g., Nearline or Coldline).
+- Set up **automated backups** for Google Drive data using Google Takeout.
+- Use **Google Cloud Storage Lifecycle Management** to automate the transition of older processed data to cheaper storage classes
 - Maintain regular backups of the raw and processed data in a separate GCS bucket.
 
 ### **6. Data Processing Pipeline**
 - All data processing should be tracked and version-controlled using tools like **Git** or **DVC (Data Version Control)**.
-- Processed data should be stored in the `processed_data` folder, with logs detailing the transformations applied to the data.
-- Maintain a **README** file in the `processed_data` folder to track the operations performed on raw data (e.g., cleaning, imputation, feature selection).
+- Processed data should be stored in the `processed` folder, with logs detailing the transformations applied to the data.
+- Maintain a **README** file or **YML** file in each `processed` subfolder to track the operations performed on raw data (e.g., cleaning, imputation, feature selection).
 
 ### **7. Data Security and Compliance**
 
 #### **7.1 Security**
 - Ensure **data encryption** is enabled for both Google Drive and Google Cloud Storage (GCS).
-- Use **GCS IAM roles** to restrict access to sensitive data, ensuring compliance with relevant privacy regulations (e.g., GDPR, HIPAA).
-- For highly sensitive data, consider additional encryption measures (e.g., client-side encryption) before storing in GCS.
 
 #### **7.2 Compliance**
 - Ensure that the storage of data complies with all relevant legal and regulatory requirements, including:
   - **Data retention policies** (how long data should be stored).
   - **Data anonymization** for datasets containing personally identifiable information (PII).
+	- Refer to person in number instead of name
 
 ### **8. Data Retention and Deletion**
 - Define **retention periods** for both raw and processed data.
@@ -121,13 +169,14 @@ Maintaining a consistent naming and organisational scheme is essential for effic
 - Maintain proper documentation for all datasets, including:
   - **Data Dictionary**: Describes the meaning, units, and types of data in both raw and processed forms.
   - **Metadata**: Include information on data sources, data collection dates, processing steps, and any data-related issues.
+  - **Data Walkthrough**: a slide including video, image to explain where the data is from. How each set of movement if performed. 
 
 ### **10. Monitoring and Auditing**
 - Regularly monitor data usage and storage limits.
 - Perform audits on the data management system to ensure compliance with the guidelines and that no sensitive data is improperly handled.
 
 ### **11. Data Publish**
-- Publish data on github with .md file 
+- Publish data on TG0UK **GitHub** with readme file to explain 
 ---
 
 This **Data Management Guideline** ensures that your machine learning project has a robust framework for handling raw and processed data while maintaining security, accessibility, and compliance.
