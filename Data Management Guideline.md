@@ -5,13 +5,14 @@
 ## **Data Management Guideline for Machine Learning Project**
 
 ### **1. Overview**
-This document outlines the data management practices for the machine learning project, focusing on data storage, organisation, and access. The primary storage options are:
-1. **Google Drive** for collaboration and smaller datasets.
+This document outlines the data management practices for machine learning projects, focusing on data storage, organisation, and access. The primary storage options are:
+1. **Google Drive** for collaboration and smaller datasets (current stage).
 2. **Google Cloud Storage** for large datasets and more secure, scalable storage.
 
 The data will be categorised into two types:
 - **Raw Data**: The original, unprocessed datasets.
 - **Processed Data**: Datasets that have been cleaned, transformed, and prepared for model training.
+- **Published Data**: Datasets that have been cleaned and used in the paper submission.
 
 ### **2. Data Storage Locations**
 
@@ -23,37 +24,38 @@ Google Drive will be used for:
 - Quick access to small processed datasets or samples for analysis.
 
 **Structure**:
-- `/Shared Drives/R&D/2_SWEE/_AI Division/Database/<Project Name>/raw_data/` — For storing raw datasets.
-- `/Google Drive/<Project Name>/processed_data/` — For storing processed datasets (e.g., cleaned CSV files, feature-engineered data).
+- `/Shared Drives/R&D/2_SWEE/_AI Division/Database/<Project Name>/raw/` — For storing raw datasets.
+- `/Shared Drives/R&D/2_SWEE/_AI Division/Database/<Project Name>/processed/` — For storing processed datasets (e.g., cleaned CSV files, pickle file).
 
 **Key Guidelines**:
-- Only store small datasets (less than 5 GB) on Google Drive.
-- Regularly back up any critical datasets to Google Cloud Storage.
+- Only store small datasets (less than 15 GB) on Google Drive.
+- Regularly back up datasets to Google Cloud Storage.
 - Provide appropriate read/write permissions for team members based on their roles.
 
-#### **2.2 Google Cloud Storage (GCS)**
+#### **2.2 Google Cloud Storage (GCS)** (not applicable yet)
+
 Google Cloud Storage will be used for:
-- Storing large datasets that exceed Google Drive’s capacity.
+- Storing large datasets that is beyond 15 GB.
 - Ensuring data security and scalability.
 - Backing up both raw and processed datasets to prevent data loss.
 - Storing data that requires more robust access control or integration with Google Cloud services (e.g., BigQuery, Dataflow).
 
 **Structure**:
-- `gs://<bucket_name>/raw_data/` — Store raw datasets directly uploaded to Google Cloud.
-- `gs://<bucket_name>/processed_data/` — Store processed data after cleaning, transformation, and feature engineering.
+- `gs://<bucket_name>/raw/` — Store raw datasets directly uploaded to Google Cloud.
+- `gs://<bucket_name>/processed/` — Store processed data after cleaning, transformation, and feature engineering.
 
 **Key Guidelines**:
-- For datasets larger than 5 GB or those requiring frequent machine learning pipeline access, store data in Google Cloud Storage.
+- For datasets larger than 15 GB or those requiring frequent machine learning pipeline access, store data in Google Cloud Storage.
 - Enable lifecycle management for automatic deletion of older processed data (e.g., versions older than a certain date).
 - Enable versioning in the GCS bucket to track changes to critical datasets.
 
-### **3. Data Organization and Naming Conventions**
-Maintaining a consistent naming and organizational scheme is essential for efficient data management.
+### **3. Data Organisation and Naming Conventions**
+Maintaining a consistent naming and organisational scheme is essential for efficient data management.
 
 #### **3.1 Folder Structure**
-- **Raw Data**: Contains the original data as obtained from sources.
-  - Sub-folders based on data sources, e.g., `/raw_data/source_name/date/`
-  - Files should be named in the format: `source_name_version_date.csv`
+- **Raw Data**: Contains the original data as obtained from sources. 
+  - Sub-folders based on data sources, e.g., `/raw/date/individual_id/sensor`
+  - Files should be named in the format: `movement_repeatition.csv`
 
 - **Processed Data**: Contains data that has been cleaned and processed.
   - Sub-folders based on the stages of processing, e.g., `/processed_data/cleaned/`, `/processed_data/features/`
