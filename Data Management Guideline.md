@@ -52,13 +52,13 @@ Google Cloud Storage will be used for:
 ### **3. Data Organisation and Naming Conventions**
 Maintaining a consistent naming and organisational scheme is essential for efficient data management.
 
-#### **3.1 Folder Structure**
+#### **3.1 Folder Structure** ([example](https://drive.google.com/drive/folders/1bwECBHhvY0YvXJyn6SpFpj-Ph-hZ2-mx?usp=sharing))
 - **Raw Data**: Contains the original data as obtained from sources. 
   - Sub-folders based on data sources, e.g., `/raw/date/individual_id/sensor`
   - Files should be named in the format: `movement_repeatition.csv`
 
 - **Processed Data**: Contains data that has been cleaned and processed.
-  - Sub-folders based on the stages of processing, e.g., `/processed_data/cleaned/`, `/processed_data/features/`
+  - Sub-folders based on the stages of processing, e.g., `/processed/cleaned/`, `/processed/features/`
   - Files should be named in the format: `processed_version_date.csv`
 
 #### **3.2 File Naming Convention**
