@@ -1,7 +1,6 @@
 
 ---
 17th Oct 2024
-## **Data Management Guideline for Machine Learning Project**
 
 ### **1. Overview**
 This document outlines the data management practices for machine learning projects, focusing on data storage, organisation, and access. The primary storage options are:
