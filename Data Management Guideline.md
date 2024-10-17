@@ -16,13 +16,14 @@ The data will be categorised into two types:
 ### **2. Data Storage Locations**
 
 #### **2.1 Google Drive**
+
 Google Drive will be used for:
 - Sharing smaller datasets that require collaborative access across team members.
 - Documentation, such as data dictionaries and metadata descriptions.
 - Quick access to small processed datasets or samples for analysis.
 
 **Structure**:
-- `/Google Drive/<Project Name>/raw_data/` — For storing raw datasets.
+- `/Shared Drives/R&D/2_SWEE/_AI Division/Database/<Project Name>/raw_data/` — For storing raw datasets.
 - `/Google Drive/<Project Name>/processed_data/` — For storing processed datasets (e.g., cleaned CSV files, feature-engineered data).
 
 **Key Guidelines**:
