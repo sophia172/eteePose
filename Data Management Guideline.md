@@ -82,12 +82,11 @@ Maintaining a consistent naming and organisational scheme is essential for effic
 	  - 13
 	  - 6
 	  - 6 # (row in one module, column number in one module, number of module), MCU at left
-
-```
+	```
 
 - **Processed Data**: Contains data that has been cleaned and processed.
   - Sub-folders based on the processing date, e.g., `processed/date/sensorName/`, 
-  - Files should be named in the format: `processed_version_date.csv`
+  - Files should be named in the format: `YYYYMMDD_1_set1_1.csv`
 
 #### **3.2 File Naming Convention**
 - Use clear, descriptive file names.
