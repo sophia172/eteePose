@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "38251e6f3272c722",
+        "id": "8248de125df30c91",
         "type": "tabs",
         "children": [
           {
-            "id": "1349f457182d17fd",
+            "id": "a70e2d2f69933c64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning code library Guideline.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Machine Learning code library Guideline"
+              "title": "New tab"
             }
           }
         ]
@@ -77,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0482fa084aead3e",
@@ -172,12 +167,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "1349f457182d17fd",
+  "active": "a70e2d2f69933c64",
   "lastOpenFiles": [
-    "Data Management Guideline.md",
-    "Machine Learning code library Guideline.md",
     "Work_Journal/2024-10-22.md",
+    "Work_Journal/2024-W27.md",
     "Work_Journal/TO-DO list.md",
+    "Work_Journal/Benefit Log.md",
+    "Work_Journal/Reflection.md",
+    "Data Management Guideline.md",
+    "Work_Journal/Work Plan.md",
+    "Machine Learning code library Guideline.md",
     "Work_Journal/2024-10-15.md",
     "eteePose/eteePose MindMap.canvas",
     "eteePose/Pose Literature.md",
