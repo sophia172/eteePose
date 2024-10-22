@@ -14,7 +14,7 @@
 ### **2. Write Generalizable Functions**
 
 - **Avoid Hardcoding**: Ensure functions are flexible by using parameters instead of hardcoding values. This makes it easy to reuse functions across projects.
-  - *Example*: Instead of hardcoding the threshold value, write `def filter_data(data, threshold=0.5): ...`.
+  - *Example*: Instead of hardcoding the threshold value, write `def filter_data(data: numpy.ndarray, threshold=0.5): ...`.
 - **Parameterize Common Operations**: Make all common operations (like handling missing data, filtering, or normalization) configurable via function parameters to cater to different datasets and requirements.
   - *Example*: `def normalize_data(data, method='min-max'): ...` allows flexibility in choosing normalization techniques.
 - **Focus on Modularity**: Break down tasks into small, reusable functions. This encourages recombination for other projects and avoids redundant coding efforts.
