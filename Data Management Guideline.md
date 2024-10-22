@@ -7,7 +7,7 @@ This document outlines the data management practices for machine learning projec
 - **Google Drive** for collaboration and smaller datasets (current stage).
 - **Google Cloud Storage** for large datasets and more secure, scalable storage.
 
-The data will be categorised into two types:
+The data will be categorised into three types:
 - **Raw Data**: The original, unprocessed datasets.
 - **Processed Data**: Datasets that have been cleaned, transformed, and prepared for model training.
 - **Published Data**: Datasets that have been cleaned and used in the paper submission.
