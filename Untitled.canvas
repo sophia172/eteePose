@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"dc2673bcb25b51ee","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"ChatBot"},
+		{"id":"31cd243d270fa233","x":-239,"y":-230,"width":250,"height":60,"type":"text","text":"LLM to generate 5 answers, pick the best"},
+		{"id":"af6eb14f384578c7","x":148,"y":-206,"width":175,"height":86,"type":"text","text":"RAG to retrive information"},
+		{"id":"7f7ef867b7af6344","x":247,"y":9,"width":151,"height":51,"type":"text","text":"Fine tuning"},
+		{"id":"312a7dd26d39f3fd","x":-24,"y":114,"width":224,"height":60,"type":"text","text":"Use LLM to get what user is asking for"},
+		{"id":"3bb9a877e7806c46","x":-460,"y":-60,"width":250,"height":60,"type":"text","text":"Graph Databases"},
+		{"id":"fb23aac4a85af43f","x":-346,"y":84,"width":215,"height":60,"type":"text","text":"BM25 keyword search"},
+		{"id":"245d88cefafc4353","x":-540,"y":-260,"width":250,"height":90,"type":"text","text":"Add prompt saying: Do not make it up. Direct to manual if no knowing."}
+	],
+	"edges":[
+		{"id":"31bac35775490916","fromNode":"dc2673bcb25b51ee","fromSide":"top","toNode":"31cd243d270fa233","toSide":"bottom"},
+		{"id":"6624c79c609873c1","fromNode":"dc2673bcb25b51ee","fromSide":"top","toNode":"af6eb14f384578c7","toSide":"bottom"},
+		{"id":"eab3b752a95872a2","fromNode":"dc2673bcb25b51ee","fromSide":"right","toNode":"7f7ef867b7af6344","toSide":"left"},
+		{"id":"5ca1b9eef2c0d03f","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"312a7dd26d39f3fd","toSide":"top"},
+		{"id":"4bb41014943ad507","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"fb23aac4a85af43f","toSide":"top"},
+		{"id":"78f2fea17d5c3cbd","fromNode":"dc2673bcb25b51ee","fromSide":"left","toNode":"3bb9a877e7806c46","toSide":"right"},
+		{"id":"66c075ca53f4bab4","fromNode":"dc2673bcb25b51ee","fromSide":"top","toNode":"245d88cefafc4353","toSide":"bottom"}
+	]
+}

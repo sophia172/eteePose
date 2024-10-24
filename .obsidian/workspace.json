@@ -11,14 +11,17 @@
             "id": "a70e2d2f69933c64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work_Journal/TO-DO list.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 65.09999999999994,
+                  "y": -89.27999999999999,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "TO-DO list"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -173,10 +176,11 @@
   },
   "active": "a70e2d2f69933c64",
   "lastOpenFiles": [
+    "Work_Journal/TO-DO list.md",
+    "Untitled.canvas",
     "Work_Journal/Reflection.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-W27.md",
-    "Work_Journal/TO-DO list.md",
     "Work_Journal/Benefit Log.md",
     "Data Management Guideline.md",
     "Work_Journal/Work Plan.md",
@@ -187,7 +191,6 @@
     "eteePose/PPIT To-Do List.md",
     "eteePose/PPIT mindmap.canvas",
     "gitignore.txt",
-    "Untitled.canvas",
     "Work_Journal/2024-10-11.md",
     "Work_Journal/2024-10-07.md",
     "eteePose",
