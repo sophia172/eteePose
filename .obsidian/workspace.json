@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/TO-DO list.md",
+                "file": "ChatBot/Server setup note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO-DO list"
+              "title": "Server setup note"
             }
           }
         ]
@@ -173,9 +173,13 @@
   },
   "active": "31e372bd73e7a920",
   "lastOpenFiles": [
-    "Work_Journal/2024-10-29.md",
+    "ChatBot/Server Setup.md",
+    "ChatBot/Server setup note.md",
+    "ChatBot/chatbot.canvas",
     "Work_Journal/TO-DO list.md",
-    "chatbot.canvas",
+    "ChatBot",
+    "eteePose/eteePose MindMap.canvas",
+    "Work_Journal/2024-10-29.md",
     "Work_Journal/Reflection.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-W27.md",
@@ -184,7 +188,6 @@
     "Work_Journal/Work Plan.md",
     "Machine Learning code library Guideline.md",
     "Work_Journal/2024-10-15.md",
-    "eteePose/eteePose MindMap.canvas",
     "eteePose/Pose Literature.md",
     "eteePose/PPIT To-Do List.md",
     "eteePose/PPIT mindmap.canvas",
