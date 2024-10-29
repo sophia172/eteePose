@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8248de125df30c91",
+        "id": "3d7a393378f0adcc",
         "type": "tabs",
         "children": [
           {
-            "id": "a70e2d2f69933c64",
+            "id": "31e372bd73e7a920",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 65.09999999999994,
-                  "y": -89.27999999999999,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -174,10 +167,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "a70e2d2f69933c64",
+  "active": "31e372bd73e7a920",
   "lastOpenFiles": [
-    "Work_Journal/TO-DO list.md",
     "Untitled.canvas",
+    "Work_Journal/TO-DO list.md",
     "Work_Journal/Reflection.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-W27.md",

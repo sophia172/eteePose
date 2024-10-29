@@ -13,15 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-10-22.md",
+                "file": "Work_Journal/TO-DO list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-22"
+              "title": "TO-DO list"
+            }
+          },
+          {
+            "id": "f28dda6869098db1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -71,
+                  "y": -43,
+                  "zoom": -1.3925621340067051
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,9 +167,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b15700e07166ace4",
+  "active": "f28dda6869098db1",
   "lastOpenFiles": [
-    "Work_Journal/Work Plan.md",
-    "Work_Journal/2024-10-22.md"
+    "Work_Journal/2024-10-29.md",
+    "Work_Journal/TO-DO list.md",
+    "Work_Journal/2024-10-22.md",
+    "Work_Journal/Work Plan.md"
   ]
 }
