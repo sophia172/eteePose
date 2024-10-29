@@ -1,5 +1,11 @@
 
 # Log in to TG0 raspberry pi server
+
+ssh guo@data.tg0.co.uk
+password is guo1987
+
+
+
 # Check linux system version
 
 The `lsb_release` utility displays LSB (Linux Standard Base) information about the Linux distribution.
