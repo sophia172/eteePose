@@ -180,3 +180,54 @@ systemctl reset-failed
 
 
 # Curl successful but cannot access through browser
+
+If accessing your server using `http://ip:port` in a **browser** does not work but `curl -v ip:port` does connect successfully, the issue may be related to one of the following:
+
+### 1. **Firewall Rules**
+
+- Firewalls can block traffic from browsers but allow command-line tools like `curl`. Ensure that the port you are trying to access (e.g., port 87) is open for both inbound and outbound HTTP traffic.
+- Check and update your firewall rules on the server, especially if using `ufw`:
+    
+    bash
+    
+    Copy code
+    
+    `sudo ufw allow 87/tcp sudo ufw status`
+    
+
+### 2. **SELinux or AppArmor Restrictions**
+
+- If SELinux or AppArmor is enabled, it could restrict access on non-standard ports (like 87). Check if any policies are affecting Nginx on that port.
+
+### 3. **Nginx Server Block Configuration**
+
+- Confirm that Nginx is correctly configured to listen on the specific port (e.g., 87). In your Nginx configuration file, make sure there is a `listen` directive for this port:
+    
+    nginx
+    
+    Copy code
+    
+    `server {     listen 87;     server_name your_domain_or_ip;     root /path/to/your/html/files;     index index.html; }`
+    
+- After confirming this, restart Nginx:
+    
+    bash
+    
+    Copy code
+    
+    `sudo systemctl restart nginx`
+    
+
+### 4. **Browser Cache and Protocol Specification**
+
+- Some browsers cache redirects or try to enforce HTTPS on custom ports, even when the server only serves HTTP. Clear your browser cache or use `http://ip:port` (with the protocol specified) to avoid HTTPS redirection issues.
+
+### 5. **Network-Level Blocking or Security Software**
+
+- Some security software or network configurations can block browser traffic on non-standard ports but allow `curl`. Check if any antivirus, firewall, or proxy settings on your machine or network could be interfering with browser access.
+
+### 6. **Browser Security Policies**
+
+- Some modern browsers impose restrictions on connecting to IP addresses over non-standard ports due to security concerns. Try using an incognito/private window or a different browser to rule out browser-specific security policies.
+
+Try these steps, and let me know if the issue persists or if any errors appear in the browser’s console or network inspector, as they may provide further clues.
