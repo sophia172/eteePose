@@ -9,6 +9,8 @@ password is guo1987
 
    tutorial: https://juejin.im/post/6844904006662242312
 
+# Link PyCharm with Server (Raspberry Pi)
+
 # Check linux system version
 
 The `lsb_release` utility displays LSB (Linux Standard Base) information about the Linux distribution.
