@@ -11,10 +11,14 @@
             "id": "31e372bd73e7a920",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Work_Journal/TO-DO list.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TO-DO list"
             }
           }
         ]
@@ -169,7 +173,7 @@
   },
   "active": "31e372bd73e7a920",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "chatbot.canvas",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/Reflection.md",
     "Work_Journal/2024-10-22.md",
