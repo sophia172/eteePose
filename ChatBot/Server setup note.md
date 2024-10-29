@@ -5,6 +5,9 @@ ssh guo@data.tg0.co.uk
 password is guo1987
 
 
+# Config flask on ubuntu (AWS lightsail)
+
+   tutorial: https://juejin.im/post/6844904006662242312
 
 # Check linux system version
 
