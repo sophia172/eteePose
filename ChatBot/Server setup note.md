@@ -158,6 +158,8 @@ mysqld  534 mysql   30u  IPv6  17636      0t0  TCP *:3306 (LISTEN)
 curl -v http://<machine-ip>:<port>
 ```
 
+# Debug
+Curl return successfully but not loading html page on browser
 # Check connection error problem 
 
 ```
