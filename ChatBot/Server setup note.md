@@ -178,6 +178,53 @@ systemctl daemon-reload
 systemctl reset-failed
 ```
 
+# Change 80 port to be used for nginx
+
+Yes, you can change port 80 from **lighttpd** (if it’s running on port 80) to **Nginx**. Here’s how:
+
+### Step 1: Stop and Disable Lighttpd
+Since lighttpd is currently using port 80, you’ll need to stop it and disable it from automatically starting, freeing up port 80 for Nginx.
+
+```bash
+sudo systemctl stop lighttpd
+sudo systemctl disable lighttpd
+```
+
+### Step 2: Configure Nginx to Use Port 80
+Edit your Nginx configuration file (usually found in `/etc/nginx/sites-available/default` or `/etc/nginx/nginx.conf`), and ensure Nginx is set to listen on port 80:
+
+```nginx
+server {
+    listen 80;
+    server_name your_domain_or_ip;
+
+    root /path/to/your/html/files;
+    index index.html;
+    ...
+}
+```
+
+### Step 3: Restart Nginx
+After saving the changes, restart Nginx to apply the new configuration.
+
+```bash
+sudo systemctl restart nginx
+```
+
+### Step 4: Verify Port 80 is Now Being Used by Nginx
+You can confirm Nginx is using port 80 with:
+
+```bash
+sudo ss -tuln | grep ':80'
+```
+
+or
+
+```bash
+sudo lsof -i :80
+```
+
+This should now show Nginx as the service listening on port 80. You should be able to access your website via `http://your_domain_or_ip`.
 
 # Curl successful but cannot access through browser
 
