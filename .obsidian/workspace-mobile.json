@@ -25,17 +25,14 @@
             "id": "f28dda6869098db1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -71,
-                  "y": -43,
-                  "zoom": -1.3925621340067051
-                }
+                "file": "Work_Journal/2024-10-29.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "2024-10-29"
             }
           }
         ],
