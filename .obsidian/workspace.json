@@ -29,8 +29,8 @@
               "state": {
                 "file": "eteePose/eteePose MindMap.canvas",
                 "viewState": {
-                  "x": -176,
-                  "y": -664.5,
+                  "x": -167.6462857142857,
+                  "y": -380.47371428571427,
                   "zoom": -1.167115179860474
                 }
               },
@@ -192,15 +192,16 @@
   },
   "active": "b989faa393a0bb21",
   "lastOpenFiles": [
-    "ChatBot/chatbot.canvas",
-    "ChatBot/Server setup note.md",
+    "eteePose/PPIT mindmap.canvas",
     "Work_Journal/2024-10-31.md",
     "Work_Journal/2024-10-30.md",
+    "eteePose/eteePose MindMap.canvas",
+    "ChatBot/chatbot.canvas",
+    "ChatBot/Server setup note.md",
     "e.md",
     "ChatBot/Server Setup.md",
     "Work_Journal/TO-DO list.md",
     "ChatBot",
-    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/2024-10-29.md",
     "Work_Journal/Reflection.md",
     "Work_Journal/2024-10-22.md",
@@ -212,7 +213,6 @@
     "Work_Journal/2024-10-15.md",
     "eteePose/Pose Literature.md",
     "eteePose/PPIT To-Do List.md",
-    "eteePose/PPIT mindmap.canvas",
     "gitignore.txt",
     "Work_Journal/2024-10-11.md",
     "Work_Journal/2024-10-07.md",

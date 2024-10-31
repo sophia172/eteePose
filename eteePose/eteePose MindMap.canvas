@@ -16,7 +16,7 @@
 		{"id":"7140c9482711be93","type":"text","text":"ViTpose","x":-120,"y":-729,"width":117,"height":50},
 		{"id":"ef40d6b1a2cf98ab","type":"text","text":"Application","x":440,"y":-423,"width":144,"height":50},
 		{"id":"bcb43092fef576b5","type":"text","text":"Seamless walk","x":584,"y":-563,"width":126,"height":50},
-		{"id":"c5bbb3d7333f2ee0","type":"text","text":"Liquid Reservoir","x":-514,"y":-621,"width":115,"height":60},
+		{"id":"c5bbb3d7333f2ee0","type":"text","text":"Liquid Reservoir","x":-514,"y":-621,"width":149,"height":70},
 		{"id":"bb956804bd28cc6f","type":"text","text":"Distillation","x":-812,"y":-635,"width":145,"height":59},
 		{"id":"8cbd340b9b036f95","type":"text","text":"Teacher/Student","x":-1040,"y":-646,"width":176,"height":50},
 		{"id":"d9e5d17232f3b242","type":"text","text":"RoHM \nroot trajectory+local movement","x":-151,"y":-538,"width":198,"height":85},
@@ -28,11 +28,15 @@
 		{"id":"475d7e84518b095d","type":"text","text":"Simplifier","x":-920,"y":-743,"width":160,"height":50},
 		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-611,"y":-1160,"width":246,"height":160},
 		{"id":"18041fb64b23c245","type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)","x":-488,"y":-909,"width":149,"height":56},
-		{"id":"c2be12560b0c2168","x":-1062,"y":-878,"width":142,"height":99,"type":"text","text":"Transfer Learning"}
+		{"id":"c2be12560b0c2168","type":"text","text":"Transfer Learning","x":-1062,"y":-878,"width":142,"height":99},
+		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-461,"y":-219,"width":105,"height":50},
+		{"id":"7d94c41468e897fb","x":-428,"y":-80,"width":126,"height":60,"type":"text","text":"Metrics"},
+		{"id":"0ff74c5e13e97812","x":-564,"y":80,"width":151,"height":50,"type":"text","text":"L2 distance"},
+		{"id":"546b3bfc5e68baf9","x":-378,"y":64,"width":187,"height":96,"type":"text","text":"Object Keypoint Similarity AP"}
 	],
 	"edges":[
-		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"6"},
-		{"id":"23f50b0f6a7abcb1","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"fcc596e7965c9225","toSide":"bottom","color":"6"},
+		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},
+		{"id":"23f50b0f6a7abcb1","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"fcc596e7965c9225","toSide":"bottom","color":"4"},
 		{"id":"6166c09ea66d6061","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"c931f286960b222b","toSide":"bottom"},
 		{"id":"47747603c5984969","fromNode":"722d1622688c3be8","fromSide":"top","toNode":"fa60714e5c4ec238","toSide":"bottom","color":"4"},
 		{"id":"92573bf6d3ea31e2","fromNode":"722d1622688c3be8","fromSide":"top","toNode":"2ea3d27360a138c2","toSide":"bottom"},
@@ -58,6 +62,10 @@
 		{"id":"b24be601e84966ff","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"475d7e84518b095d","toSide":"bottom","color":"6"},
 		{"id":"2c352f4ad773c912","fromNode":"475d7e84518b095d","fromSide":"top","toNode":"676ae2fda2a2c91a","toSide":"left","color":"6"},
 		{"id":"e746096c9030dc01","fromNode":"40614312f41e1138","fromSide":"top","toNode":"18041fb64b23c245","toSide":"bottom"},
-		{"id":"a8b75988091b3387","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"c2be12560b0c2168","toSide":"bottom"}
+		{"id":"a8b75988091b3387","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"c2be12560b0c2168","toSide":"bottom"},
+		{"id":"bf494e37a85f955d","fromNode":"c20efa0148a10b9a","fromSide":"top","toNode":"28c568ab5dc25c59","toSide":"top","color":"3"},
+		{"id":"797bf58fbcb4770d","fromNode":"20b2ba16a757a956","fromSide":"bottom","toNode":"7d94c41468e897fb","toSide":"top","color":"4"},
+		{"id":"24bac1ceebaba420","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"0ff74c5e13e97812","toSide":"top","color":"4"},
+		{"id":"1f24433e09107db2","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"546b3bfc5e68baf9","toSide":"top","color":"3"}
 	]
 }
