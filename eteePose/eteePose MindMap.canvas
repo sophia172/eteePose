@@ -32,7 +32,8 @@
 		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-461,"y":-219,"width":105,"height":50},
 		{"id":"7d94c41468e897fb","x":-428,"y":-80,"width":126,"height":60,"type":"text","text":"Metrics"},
 		{"id":"0ff74c5e13e97812","x":-564,"y":80,"width":151,"height":50,"type":"text","text":"L2 distance"},
-		{"id":"546b3bfc5e68baf9","x":-378,"y":64,"width":187,"height":96,"type":"text","text":"Object Keypoint Similarity AP"}
+		{"id":"546b3bfc5e68baf9","x":-378,"y":64,"width":187,"height":96,"type":"text","text":"Object Keypoint Similarity AP"},
+		{"id":"d4c38ffec4dd8cbd","x":444,"y":-778,"width":250,"height":60,"type":"text","text":"Use MIM to pretrain with only mat data."}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},
@@ -66,6 +67,7 @@
 		{"id":"bf494e37a85f955d","fromNode":"c20efa0148a10b9a","fromSide":"top","toNode":"28c568ab5dc25c59","toSide":"top","color":"3"},
 		{"id":"797bf58fbcb4770d","fromNode":"20b2ba16a757a956","fromSide":"bottom","toNode":"7d94c41468e897fb","toSide":"top","color":"4"},
 		{"id":"24bac1ceebaba420","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"0ff74c5e13e97812","toSide":"top","color":"4"},
-		{"id":"1f24433e09107db2","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"546b3bfc5e68baf9","toSide":"top","color":"3"}
+		{"id":"1f24433e09107db2","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"546b3bfc5e68baf9","toSide":"top","color":"3"},
+		{"id":"fb456ddf339df126","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"d4c38ffec4dd8cbd","toSide":"bottom"}
 	]
 }
