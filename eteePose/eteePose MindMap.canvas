@@ -30,10 +30,10 @@
 		{"id":"18041fb64b23c245","type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)","x":-488,"y":-909,"width":149,"height":56},
 		{"id":"c2be12560b0c2168","type":"text","text":"Transfer Learning","x":-1062,"y":-878,"width":142,"height":99},
 		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-461,"y":-219,"width":105,"height":50},
-		{"id":"7d94c41468e897fb","x":-428,"y":-80,"width":126,"height":60,"type":"text","text":"Metrics"},
-		{"id":"0ff74c5e13e97812","x":-564,"y":80,"width":151,"height":50,"type":"text","text":"L2 distance"},
-		{"id":"546b3bfc5e68baf9","x":-378,"y":64,"width":187,"height":96,"type":"text","text":"Object Keypoint Similarity AP"},
-		{"id":"d4c38ffec4dd8cbd","x":444,"y":-778,"width":250,"height":60,"type":"text","text":"Use MIM to pretrain with only mat data."}
+		{"id":"7d94c41468e897fb","type":"text","text":"Metrics","x":-428,"y":-80,"width":126,"height":60},
+		{"id":"0ff74c5e13e97812","type":"text","text":"L2 distance","x":-564,"y":80,"width":151,"height":50},
+		{"id":"546b3bfc5e68baf9","type":"text","text":"Object Keypoint Similarity AP","x":-378,"y":64,"width":187,"height":96},
+		{"id":"d4c38ffec4dd8cbd","type":"text","text":"Use MIM to pretrain with only mat data.","x":444,"y":-778,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},
@@ -62,7 +62,7 @@
 		{"id":"0d922f440e00670b","fromNode":"c5bbb3d7333f2ee0","fromSide":"top","toNode":"0919ef90127d0a5b","toSide":"bottom","color":"4"},
 		{"id":"b24be601e84966ff","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"475d7e84518b095d","toSide":"bottom","color":"6"},
 		{"id":"2c352f4ad773c912","fromNode":"475d7e84518b095d","fromSide":"top","toNode":"676ae2fda2a2c91a","toSide":"left","color":"6"},
-		{"id":"e746096c9030dc01","fromNode":"40614312f41e1138","fromSide":"top","toNode":"18041fb64b23c245","toSide":"bottom"},
+		{"id":"e746096c9030dc01","fromNode":"40614312f41e1138","fromSide":"top","toNode":"18041fb64b23c245","toSide":"bottom","color":"3"},
 		{"id":"a8b75988091b3387","fromNode":"2b2d13cfa77de12f","fromSide":"top","toNode":"c2be12560b0c2168","toSide":"bottom"},
 		{"id":"bf494e37a85f955d","fromNode":"c20efa0148a10b9a","fromSide":"top","toNode":"28c568ab5dc25c59","toSide":"top","color":"3"},
 		{"id":"797bf58fbcb4770d","fromNode":"20b2ba16a757a956","fromSide":"bottom","toNode":"7d94c41468e897fb","toSide":"top","color":"4"},

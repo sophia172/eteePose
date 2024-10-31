@@ -29,8 +29,8 @@
               "state": {
                 "file": "eteePose/eteePose MindMap.canvas",
                 "viewState": {
-                  "x": -167.6462857142857,
-                  "y": -380.47371428571427,
+                  "x": -176,
+                  "y": -500,
                   "zoom": -1.167115179860474
                 }
               },
@@ -192,10 +192,10 @@
   },
   "active": "b989faa393a0bb21",
   "lastOpenFiles": [
-    "eteePose/PPIT mindmap.canvas",
     "Work_Journal/2024-10-31.md",
-    "Work_Journal/2024-10-30.md",
     "eteePose/eteePose MindMap.canvas",
+    "eteePose/PPIT mindmap.canvas",
+    "Work_Journal/2024-10-30.md",
     "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
     "e.md",
