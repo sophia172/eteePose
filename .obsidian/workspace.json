@@ -20,8 +20,26 @@
               "icon": "lucide-file",
               "title": "2024-10-30"
             }
+          },
+          {
+            "id": "b989faa393a0bb21",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "eteePose/eteePose MindMap.canvas",
+                "viewState": {
+                  "x": -176,
+                  "y": -664.5,
+                  "zoom": -1.167115179860474
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "eteePose MindMap"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work_Journal/2024-10-30.md"
+                "file": "eteePose/eteePose MindMap.canvas"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-30"
+              "title": "Outline of eteePose MindMap"
             }
           },
           {
@@ -172,13 +190,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f95ab37398f02fb7",
+  "active": "b989faa393a0bb21",
   "lastOpenFiles": [
-    "Work_Journal/2024-10-30.md",
+    "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
+    "Work_Journal/2024-10-31.md",
+    "Work_Journal/2024-10-30.md",
     "e.md",
     "ChatBot/Server Setup.md",
-    "ChatBot/chatbot.canvas",
     "Work_Journal/TO-DO list.md",
     "ChatBot",
     "eteePose/eteePose MindMap.canvas",
