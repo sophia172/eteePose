@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
+                "file": "ChatBot/chatbot.canvas",
                 "viewState": {
-                  "x": -176,
-                  "y": -500,
-                  "zoom": -1.167115179860474
+                  "x": 104,
+                  "y": -3.6447412109375037,
+                  "zoom": -0.7068691694200728
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "title": "chatbot"
             }
           }
         ],
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas"
+                "file": "ChatBot/chatbot.canvas"
               },
               "icon": "lucide-list",
-              "title": "Outline of eteePose MindMap"
+              "title": "Outline of chatbot"
             }
           },
           {
@@ -192,8 +192,8 @@
   },
   "active": "b989faa393a0bb21",
   "lastOpenFiles": [
-    "Work_Journal/2024-10-31.md",
     "eteePose/eteePose MindMap.canvas",
+    "Work_Journal/2024-10-31.md",
     "eteePose/PPIT mindmap.canvas",
     "Work_Journal/2024-10-30.md",
     "ChatBot/chatbot.canvas",
