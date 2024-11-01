@@ -25,17 +25,14 @@
             "id": "b989faa393a0bb21",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ChatBot/chatbot.canvas",
-                "viewState": {
-                  "x": 104,
-                  "y": -3.6447412109375037,
-                  "zoom": -0.7068691694200728
-                }
+                "file": "Work_Journal/TO-DO list.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "chatbot"
+              "icon": "lucide-file",
+              "title": "TO-DO list"
             }
           }
         ],
@@ -155,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatBot/chatbot.canvas"
+                "file": "Work_Journal/TO-DO list.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of chatbot"
+              "title": "Outline of TO-DO list"
             }
           },
           {
@@ -192,11 +189,11 @@
   },
   "active": "b989faa393a0bb21",
   "lastOpenFiles": [
-    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/2024-10-31.md",
+    "ChatBot/chatbot.canvas",
+    "eteePose/eteePose MindMap.canvas",
     "eteePose/PPIT mindmap.canvas",
     "Work_Journal/2024-10-30.md",
-    "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
     "e.md",
     "ChatBot/Server Setup.md",
