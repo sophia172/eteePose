@@ -39,17 +39,14 @@
             "id": "77ca298cc9de84c8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -101.34808567762018,
-                  "y": -416.9607543860164,
-                  "zoom": -0.8273946510393234
-                }
+                "file": "Work_Journal/2024-11-05.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "icon": "lucide-file",
+              "title": "2024-11-05"
             }
           }
         ],
@@ -109,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0482fa084aead3e",
@@ -170,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas"
+                "file": "Work_Journal/2024-11-05.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of eteePose MindMap"
+              "title": "Outline of 2024-11-05"
             }
           },
           {
@@ -205,12 +201,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19da2a73dd17451b",
+  "active": "77ca298cc9de84c8",
   "lastOpenFiles": [
-    "ChatBot/chatbot.canvas",
+    "Work_Journal/2024-11-04.md",
     "Work_Journal/2024-11-05.md",
-    "Work_Journal/TO-DO list.md",
     "eteePose/eteePose MindMap.canvas",
+    "ChatBot/chatbot.canvas",
+    "Work_Journal/TO-DO list.md",
     "Work_Journal/Work Plan.md",
     "Data Management Guideline.md",
     "Machine Learning code library Guideline.md",
@@ -218,7 +215,6 @@
     "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-10-31.md",
     "Work_Journal/2024-10-30.md",
-    "Work_Journal/2024-11-04.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-10-03.md",
     "eteePose/PPIT mindmap.canvas",
