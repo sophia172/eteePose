@@ -33,7 +33,8 @@
 		{"id":"7d94c41468e897fb","type":"text","text":"Metrics","x":-428,"y":-80,"width":126,"height":60},
 		{"id":"0ff74c5e13e97812","type":"text","text":"L2 distance","x":-564,"y":80,"width":151,"height":50},
 		{"id":"546b3bfc5e68baf9","type":"text","text":"Object Keypoint Similarity AP","x":-378,"y":64,"width":187,"height":96},
-		{"id":"d4c38ffec4dd8cbd","type":"text","text":"Use MIM to pretrain with only mat data.","x":444,"y":-778,"width":250,"height":60}
+		{"id":"d4c38ffec4dd8cbd","type":"text","text":"Use MIM to pretrain with only mat data.","x":444,"y":-778,"width":250,"height":60},
+		{"id":"63b5c6719bc1765e","x":-304,"y":-933,"width":131,"height":52,"type":"text","text":"attention?"}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},
@@ -68,6 +69,7 @@
 		{"id":"797bf58fbcb4770d","fromNode":"20b2ba16a757a956","fromSide":"bottom","toNode":"7d94c41468e897fb","toSide":"top","color":"4"},
 		{"id":"24bac1ceebaba420","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"0ff74c5e13e97812","toSide":"top","color":"4"},
 		{"id":"1f24433e09107db2","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"546b3bfc5e68baf9","toSide":"top","color":"3"},
-		{"id":"fb456ddf339df126","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"d4c38ffec4dd8cbd","toSide":"bottom"}
+		{"id":"fb456ddf339df126","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"d4c38ffec4dd8cbd","toSide":"bottom"},
+		{"id":"d41e9b857abc8a32","fromNode":"676ae2fda2a2c91a","fromSide":"top","toNode":"63b5c6719bc1765e","toSide":"bottom"}
 	]
 }

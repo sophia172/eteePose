@@ -41,15 +41,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ChatBot/chatbot.canvas",
+                "file": "eteePose/eteePose MindMap.canvas",
                 "viewState": {
-                  "x": 104,
-                  "y": 8.5,
-                  "zoom": -0.7068691694200728
+                  "x": 37.27413213493716,
+                  "y": -314.6443555243665,
+                  "zoom": -0.8273946510393234
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "chatbot"
+              "title": "eteePose MindMap"
             }
           }
         ],
@@ -169,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatBot/chatbot.canvas"
+                "file": "eteePose/eteePose MindMap.canvas"
               },
               "icon": "lucide-list",
-              "title": "Outline of chatbot"
+              "title": "Outline of eteePose MindMap"
             }
           },
           {
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,15 +204,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "77ca298cc9de84c8",
+  "active": "19da2a73dd17451b",
   "lastOpenFiles": [
+    "ChatBot/chatbot.canvas",
     "Work_Journal/2024-11-05.md",
     "Work_Journal/TO-DO list.md",
     "eteePose/eteePose MindMap.canvas",
     "Work_Journal/Work Plan.md",
     "Data Management Guideline.md",
     "Machine Learning code library Guideline.md",
-    "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
     "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-10-31.md",
