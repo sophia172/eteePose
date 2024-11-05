@@ -6,28 +6,28 @@
 		{"id":"fb23aac4a85af43f","type":"text","text":"BM25 keyword search","x":-505,"y":178,"width":215,"height":60},
 		{"id":"312a7dd26d39f3fd","type":"text","text":"Use LLM to get what user is asking for","x":-256,"y":-320,"width":224,"height":60},
 		{"id":"31cd243d270fa233","type":"text","text":"LLM to generate 5 answers, pick the best","x":68,"y":-350,"width":250,"height":60},
-		{"id":"af6eb14f384578c7","type":"text","text":"RAG to retrive information","x":-256,"y":281,"width":175,"height":86},
 		{"id":"7f7ef867b7af6344","type":"text","text":"Fine tuning","x":167,"y":-215,"width":151,"height":51},
 		{"id":"245d88cefafc4353","type":"text","text":"Add prompt saying: Do not make it up. Direct to manual if no knowing.","x":-31,"y":234,"width":250,"height":90},
-		{"id":"3bb9a877e7806c46","type":"text","text":"Graph Databases","x":-540,"y":307,"width":250,"height":60},
 		{"id":"1f9092ce18e8020a","type":"text","text":"Server setup","x":243,"y":30,"width":158,"height":50},
-		{"id":"ddb585c95488026e","x":417,"y":-83,"width":250,"height":60,"type":"text","text":"Multiple answer box"},
-		{"id":"95fd8ded4c8150ab","x":498,"y":-4,"width":250,"height":60,"type":"text","text":"Selection box to rank"},
-		{"id":"bb80b1b884806ccd","x":427,"y":114,"width":250,"height":60,"type":"text","text":"Feed back collection"}
+		{"id":"ddb585c95488026e","type":"text","text":"Multiple answer box","x":417,"y":-83,"width":250,"height":60},
+		{"id":"95fd8ded4c8150ab","type":"text","text":"Selection box to rank","x":498,"y":-4,"width":250,"height":60},
+		{"id":"bb80b1b884806ccd","type":"text","text":"Feed back collection","x":427,"y":114,"width":250,"height":60},
+		{"id":"2058986d0060ca2c","x":-360,"y":-201,"width":110,"height":60,"type":"text","text":"RAG"},
+		{"id":"3bb9a877e7806c46","type":"text","text":"Graph Databases","x":-394,"y":324,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"1633e9450885c45a","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"71e56d08980a8d59","toSide":"top"},
 		{"id":"cbf585c1c2acace0","fromNode":"dc2673bcb25b51ee","fromSide":"top","toNode":"1b877d051394ca89","toSide":"bottom"},
 		{"id":"face0d826dd93be7","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"fb23aac4a85af43f","toSide":"top"},
-		{"id":"24b7e77bb220e6c0","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"af6eb14f384578c7","toSide":"top"},
 		{"id":"4fc76819d947aa91","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"312a7dd26d39f3fd","toSide":"bottom"},
 		{"id":"62ca54c3eb058aaf","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"31cd243d270fa233","toSide":"bottom"},
-		{"id":"15319be6fa7fa3a7","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"7f7ef867b7af6344","toSide":"bottom"},
-		{"id":"1b17b1a2b7e2735d","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"245d88cefafc4353","toSide":"top"},
+		{"id":"15319be6fa7fa3a7","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"7f7ef867b7af6344","toSide":"bottom","color":"2"},
+		{"id":"1b17b1a2b7e2735d","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"245d88cefafc4353","toSide":"top","color":"2"},
 		{"id":"6c52d8fef676c5bf","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"3bb9a877e7806c46","toSide":"top"},
 		{"id":"f0e93c9d6491fea7","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"1f9092ce18e8020a","toSide":"left"},
 		{"id":"bbf359b6cb2c0be0","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"ddb585c95488026e","toSide":"left"},
 		{"id":"7beb8d17e0180da0","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"95fd8ded4c8150ab","toSide":"left"},
-		{"id":"5d26054cc6f6258d","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"bb80b1b884806ccd","toSide":"left"}
+		{"id":"5d26054cc6f6258d","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"bb80b1b884806ccd","toSide":"left"},
+		{"id":"c24af1e0fcb297f2","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"2058986d0060ca2c","toSide":"bottom"}
 	]
 }
