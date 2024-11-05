@@ -43,8 +43,8 @@
               "state": {
                 "file": "eteePose/eteePose MindMap.canvas",
                 "viewState": {
-                  "x": 37.27413213493716,
-                  "y": -314.6443555243665,
+                  "x": -101.34808567762018,
+                  "y": -416.9607543860164,
                   "zoom": -0.8273946510393234
                 }
               },
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0482fa084aead3e",
@@ -204,7 +205,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19da2a73dd17451b",
+  "active": "77ca298cc9de84c8",
   "lastOpenFiles": [
     "ChatBot/chatbot.canvas",
     "Work_Journal/2024-11-05.md",
