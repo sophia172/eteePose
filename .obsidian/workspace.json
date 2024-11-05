@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-10-22.md",
+                "file": "Work_Journal/2024-11-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-22"
+              "title": "2024-11-05"
             }
           },
           {
@@ -180,10 +180,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work_Journal/2024-10-22.md"
+                "file": "Work_Journal/2024-11-05.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-22"
+              "title": "Outline of 2024-11-05"
             }
           },
           {
@@ -217,6 +217,7 @@
   },
   "active": "77ca298cc9de84c8",
   "lastOpenFiles": [
+    "Work_Journal/2024-10-22.md",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/Work Plan.md",
     "Work_Journal/2024-11-05.md",
@@ -235,7 +236,6 @@
     "ChatBot",
     "Work_Journal/2024-10-29.md",
     "Work_Journal/Reflection.md",
-    "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-W27.md",
     "Work_Journal/Benefit Log.md",
     "Machine Learning code library Guideline.md",
