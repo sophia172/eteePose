@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-10-31.md",
+                "file": "Work_Journal/2024-11-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-31"
+              "title": "2024-11-04"
+            }
+          },
+          {
+            "id": "dedb67ace8a7e4cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,10 +178,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f28dda6869098db1",
+  "active": "dedb67ace8a7e4cb",
   "lastOpenFiles": [
-    "Work_Journal/2024-10-29.md",
+    "Work_Journal/2024-11-04.md",
+    "Untitled.md",
     "Work_Journal/TO-DO list.md",
+    "Work_Journal/2024-10-31.md",
+    "Work_Journal/2024-10-29.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/Work Plan.md"
   ]
