@@ -15,7 +15,14 @@
 		{"id":"3bb9a877e7806c46","type":"text","text":"Graph Databases","x":-394,"y":324,"width":250,"height":60},
 		{"id":"7f7ef867b7af6344","type":"text","text":"Fine tuning","x":243,"y":-226,"width":151,"height":51},
 		{"id":"70310d16e27b0160","type":"text","text":"Prompt engineering","x":-117,"y":-432,"width":211,"height":52},
-		{"id":"742e10f12c277230","x":-128,"y":418,"width":250,"height":142,"type":"text","text":"Generate description for each image. Then ask prompt to search for the appropriate image within the answer. "}
+		{"id":"742e10f12c277230","type":"text","text":"Generate description for each image. Then ask prompt to search for the appropriate image within the answer. ","x":-128,"y":418,"width":250,"height":142},
+		{"id":"71339a2326d27f50","x":-680,"y":-364,"width":250,"height":60,"type":"text","text":"Github Actions"},
+		{"id":"675d1ff084f48f66","x":-630,"y":-90,"width":250,"height":60,"type":"text","text":"Standardisation"},
+		{"id":"80d17805e025e082","x":-720,"y":-231,"width":250,"height":60,"type":"text","text":"CI/CD pipeline and IaC"},
+		{"id":"4fac607b91c48a9f","x":-493,"y":-517,"width":250,"height":60,"type":"text","text":"Set up the vector storage"},
+		{"id":"bcd87db67c2a229f","x":-209,"y":-537,"width":190,"height":50,"type":"text","text":"Document storage"},
+		{"id":"09f7f000396e6640","x":-970,"y":-334,"width":250,"height":60,"type":"text","text":"Model Repo on GitHub"},
+		{"id":"710f7b3cc97cff31","x":-859,"y":34,"width":139,"height":50,"type":"text","text":"Token alert"}
 	],
 	"edges":[
 		{"id":"1633e9450885c45a","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"71e56d08980a8d59","toSide":"top"},
@@ -32,6 +39,13 @@
 		{"id":"5d26054cc6f6258d","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"bb80b1b884806ccd","toSide":"left"},
 		{"id":"c24af1e0fcb297f2","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"2058986d0060ca2c","toSide":"bottom"},
 		{"id":"ee3c2c9bb5dcfbe9","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"70310d16e27b0160","toSide":"bottom"},
-		{"id":"f2e059470b0a87c7","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"742e10f12c277230","toSide":"top"}
+		{"id":"f2e059470b0a87c7","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"742e10f12c277230","toSide":"top"},
+		{"id":"d276c0aeaf111c5b","fromNode":"dc2673bcb25b51ee","fromSide":"left","toNode":"675d1ff084f48f66","toSide":"right"},
+		{"id":"b1d0628437a155f7","fromNode":"675d1ff084f48f66","fromSide":"top","toNode":"80d17805e025e082","toSide":"bottom"},
+		{"id":"1f2c35a75270c9c1","fromNode":"80d17805e025e082","fromSide":"top","toNode":"71339a2326d27f50","toSide":"bottom"},
+		{"id":"e22ea3cb12be5e97","fromNode":"2058986d0060ca2c","fromSide":"top","toNode":"4fac607b91c48a9f","toSide":"bottom"},
+		{"id":"7ba31f288e493e77","fromNode":"2058986d0060ca2c","fromSide":"top","toNode":"bcd87db67c2a229f","toSide":"bottom"},
+		{"id":"d015b87d3f08be02","fromNode":"80d17805e025e082","fromSide":"top","toNode":"09f7f000396e6640","toSide":"bottom"},
+		{"id":"b5b3edb03956edf4","fromNode":"675d1ff084f48f66","fromSide":"bottom","toNode":"710f7b3cc97cff31","toSide":"top"}
 	]
 }
