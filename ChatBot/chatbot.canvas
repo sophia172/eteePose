@@ -14,7 +14,8 @@
 		{"id":"2058986d0060ca2c","type":"text","text":"RAG","x":-360,"y":-201,"width":110,"height":60},
 		{"id":"3bb9a877e7806c46","type":"text","text":"Graph Databases","x":-394,"y":324,"width":250,"height":60},
 		{"id":"7f7ef867b7af6344","type":"text","text":"Fine tuning","x":243,"y":-226,"width":151,"height":51},
-		{"id":"70310d16e27b0160","x":-117,"y":-432,"width":211,"height":52,"type":"text","text":"Prompt engineering"}
+		{"id":"70310d16e27b0160","type":"text","text":"Prompt engineering","x":-117,"y":-432,"width":211,"height":52},
+		{"id":"742e10f12c277230","x":-128,"y":418,"width":250,"height":142,"type":"text","text":"Generate description for each image. Then ask prompt to search for the appropriate image within the answer. "}
 	],
 	"edges":[
 		{"id":"1633e9450885c45a","fromNode":"dc2673bcb25b51ee","fromSide":"bottom","toNode":"71e56d08980a8d59","toSide":"top"},
@@ -30,6 +31,7 @@
 		{"id":"7beb8d17e0180da0","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"95fd8ded4c8150ab","toSide":"left"},
 		{"id":"5d26054cc6f6258d","fromNode":"1f9092ce18e8020a","fromSide":"right","toNode":"bb80b1b884806ccd","toSide":"left"},
 		{"id":"c24af1e0fcb297f2","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"2058986d0060ca2c","toSide":"bottom"},
-		{"id":"ee3c2c9bb5dcfbe9","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"70310d16e27b0160","toSide":"bottom"}
+		{"id":"ee3c2c9bb5dcfbe9","fromNode":"1b877d051394ca89","fromSide":"top","toNode":"70310d16e27b0160","toSide":"bottom"},
+		{"id":"f2e059470b0a87c7","fromNode":"71e56d08980a8d59","fromSide":"bottom","toNode":"742e10f12c277230","toSide":"top"}
 	]
 }
