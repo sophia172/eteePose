@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-10-30.md",
+                "file": "Work_Journal/2024-11-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-30"
+              "title": "2024-11-08"
             }
           },
           {
@@ -230,11 +230,13 @@
   },
   "active": "cdc006a001410593",
   "lastOpenFiles": [
-    "Work_Journal/2024-11-01.md",
     "Work_Journal/TO-DO list.md",
+    "Work_Journal/2024-11-08.md",
+    "Work_Journal/2024-05-27.md",
+    "Work_Journal/2024-10-30.md",
+    "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-11-07.md",
-    "Work_Journal/2024-11-08.md",
     "Work_Journal/2024-W27.md",
     "ChatBot/chatbot.canvas",
     "eteePose/eteePose MindMap.canvas",
@@ -246,7 +248,6 @@
     "Machine Learning code library Guideline.md",
     "ChatBot/Server setup note.md",
     "Work_Journal/2024-10-31.md",
-    "Work_Journal/2024-10-30.md",
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-10-03.md",
     "eteePose/PPIT mindmap.canvas",
@@ -260,7 +261,6 @@
     "eteePose/PPIT To-Do List.md",
     "gitignore.txt",
     "Work_Journal/2024-10-11.md",
-    "Work_Journal/2024-10-07.md",
     "eteePose"
   ]
 }
