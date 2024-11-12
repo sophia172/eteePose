@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "f2a19fb095037bc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work_Journal/TO-DO list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TO-DO list"
+            }
+          },
+          {
             "id": "b989faa393a0bb21",
             "type": "leaf",
             "state": {
@@ -77,7 +91,8 @@
               "title": "TO-DO list"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,12 +243,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cdc006a001410593",
+  "active": "f2a19fb095037bc9",
   "lastOpenFiles": [
+    "Work_Journal/2024-11-12.md",
+    "Work_Journal/TO-DO list.md",
+    "Work_Journal/2024-11-08.md",
     "Work_Journal/2024-11-04.md",
     "Work_Journal/2024-11-05.md",
-    "Work_Journal/2024-11-08.md",
-    "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-05-27.md",
     "Work_Journal/2024-10-30.md",
     "Work_Journal/2024-11-01.md",
@@ -260,7 +276,6 @@
     "eteePose/Pose Literature.md",
     "eteePose/PPIT To-Do List.md",
     "gitignore.txt",
-    "Work_Journal/2024-10-11.md",
     "eteePose"
   ]
 }
