@@ -25,17 +25,14 @@
             "id": "f2a19fb095037bc9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -176,
-                  "y": -500,
-                  "zoom": -1.167115179860474
-                }
+                "file": "Work_Journal/2024-11-15.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "icon": "lucide-file",
+              "title": "2024-11-15"
             }
           },
           {
@@ -248,11 +245,14 @@
   },
   "active": "f2a19fb095037bc9",
   "lastOpenFiles": [
+    "Work_Journal/2024-11-13.md",
+    "Work_Journal/2024-11-15.md",
+    "Untitled",
+    "eteePose/eteePose MindMap.canvas",
     "Pasted image 20241114185922.png",
     "Pasted image 20241114184016.png",
     "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
-    "Work_Journal/2024-11-13.md",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-12.md",
     "Work_Journal/2024-11-08.md",
@@ -264,7 +264,6 @@
     "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-11-07.md",
     "Work_Journal/2024-W27.md",
-    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/Benefit Log.md",
     "Work_Journal/Work Plan.md",
     "Data Management Guideline.md",
