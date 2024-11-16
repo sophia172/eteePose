@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/TO-DO list.md",
+                "file": "Work_Journal/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO-DO list"
+              "title": "Untitled"
             }
           }
         ],
@@ -194,8 +194,9 @@
   },
   "active": "9d588f772f7edb40",
   "lastOpenFiles": [
-    "Work_Journal/2024-11-06.md",
     "Work_Journal/TO-DO list.md",
+    "Work_Journal/Untitled.md",
+    "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-10-31.md",
     "Work_Journal/2024-11-08.md",
     "Work_Journal/2024-11-07.md",
