@@ -178,6 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Work_Journal/TO-DO list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for TO-DO list"
             }
           },
           {
@@ -196,11 +197,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Work_Journal/TO-DO list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from TO-DO list"
             }
           },
           {
@@ -222,10 +224,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatBot/chatbot.canvas"
+                "file": "Work_Journal/TO-DO list.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of chatbot"
+              "title": "Outline of TO-DO list"
             }
           },
           {
@@ -243,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,9 +261,9 @@
   },
   "active": "fd34f903a3bdd2eb",
   "lastOpenFiles": [
-    "Work_Journal/2024-11-25.md",
-    "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-19.md",
+    "Work_Journal/2024-11-05.md",
+    "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-15.md",
     "Work_Journal/Hackthon.md",
     "Work_Journal/2024-11-12.md",
@@ -275,7 +277,6 @@
     "ChatBot/Server setup note.md",
     "Work_Journal/2024-11-08.md",
     "Work_Journal/2024-11-04.md",
-    "Work_Journal/2024-11-05.md",
     "Work_Journal/2024-05-27.md",
     "Work_Journal/2024-10-30.md",
     "Work_Journal/2024-11-01.md",
@@ -292,6 +293,7 @@
     "e.md",
     "ChatBot/Server Setup.md",
     "ChatBot",
+    "Work_Journal/2024-10-29.md",
     "gitignore.txt",
     "eteePose"
   ]
