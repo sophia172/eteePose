@@ -39,17 +39,14 @@
             "id": "fd34f903a3bdd2eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -176,
-                  "y": -500,
-                  "zoom": -1.167115179860474
-                }
+                "file": "Work_Journal/Hackthon.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "icon": "lucide-file",
+              "title": "Hackthon"
             }
           },
           {
@@ -262,6 +259,7 @@
   },
   "active": "fd34f903a3bdd2eb",
   "lastOpenFiles": [
+    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/Reflection.md",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-27.md",
@@ -273,7 +271,6 @@
     "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-11-13.md",
     "Untitled",
-    "eteePose/eteePose MindMap.canvas",
     "Pasted image 20241114185922.png",
     "Pasted image 20241114184016.png",
     "ChatBot/chatbot.canvas",
@@ -292,7 +289,6 @@
     "Machine Learning code library Guideline.md",
     "Work_Journal/2024-10-31.md",
     "Work_Journal/2024-10-22.md",
-    "Work_Journal/2024-10-03.md",
     "eteePose/PPIT mindmap.canvas",
     "ChatBot",
     "gitignore.txt",
