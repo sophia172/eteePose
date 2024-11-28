@@ -36,9 +36,9 @@
 		{"id":"d4c38ffec4dd8cbd","type":"text","text":"Use MIM to pretrain with only mat data.","x":444,"y":-778,"width":250,"height":60},
 		{"id":"63b5c6719bc1765e","type":"text","text":"attention?","x":-304,"y":-933,"width":131,"height":52},
 		{"id":"49ca479550ac5a95","type":"text","text":"Reversal approach","x":205,"y":-661,"width":250,"height":60},
-		{"id":"b938eb403d9bbbaa","x":73,"y":-63,"width":167,"height":86,"type":"text","text":"Visualisation\n"},
-		{"id":"11759e6a8d0e6fa0","x":219,"y":72,"width":250,"height":60,"type":"text","text":"![[Pasted image 20241114184016.png]]"},
-		{"id":"b0b138dd0711494b","x":-211,"y":-1030,"width":250,"height":60,"type":"text","text":"![[Pasted image 20241114185922.png]]"}
+		{"id":"b938eb403d9bbbaa","type":"text","text":"Visualisation\n","x":73,"y":-63,"width":167,"height":86},
+		{"id":"11759e6a8d0e6fa0","type":"text","text":"![[Pasted image 20241114184016.png]]","x":219,"y":72,"width":250,"height":60},
+		{"id":"b0b138dd0711494b","type":"text","text":"![[Pasted image 20241114185922.png]]","x":-179,"y":-1080,"width":268,"height":80}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},

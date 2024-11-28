@@ -39,14 +39,17 @@
             "id": "fd34f903a3bdd2eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work_Journal/Reflection.md",
-                "mode": "source",
-                "source": false
+                "file": "eteePose/eteePose MindMap.canvas",
+                "viewState": {
+                  "x": -176,
+                  "y": -500,
+                  "zoom": -1.167115179860474
+                }
               },
-              "icon": "lucide-file",
-              "title": "Reflection"
+              "icon": "lucide-layout-dashboard",
+              "title": "eteePose MindMap"
             }
           },
           {
@@ -259,6 +262,7 @@
   },
   "active": "fd34f903a3bdd2eb",
   "lastOpenFiles": [
+    "Work_Journal/Reflection.md",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-27.md",
     "Work_Journal/2024-11-25.md",
@@ -290,7 +294,6 @@
     "Work_Journal/2024-10-22.md",
     "Work_Journal/2024-10-03.md",
     "eteePose/PPIT mindmap.canvas",
-    "e.md",
     "ChatBot",
     "gitignore.txt",
     "eteePose"
