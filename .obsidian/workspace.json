@@ -56,17 +56,14 @@
             "id": "e190433db0b45a19",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -307.88127667765497,
-                  "y": -635.948498822847,
-                  "zoom": -1.167115179860474
-                }
+                "file": "Work_Journal/2024-12-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "icon": "lucide-file",
+              "title": "2024-12-02"
             }
           },
           {
@@ -279,13 +276,15 @@
   },
   "active": "e190433db0b45a19",
   "lastOpenFiles": [
-    "Pasted image 20241114184016.png",
-    "eteePose/eteePose MindMap.canvas",
-    "Untitled.md",
+    "Work_Journal/2024-11-27.md",
+    "Work_Journal/2024-12-02.md",
+    "Work_Journal/Benefit Log.md",
     "Work_Journal/TO-DO list.md",
+    "eteePose/eteePose MindMap.canvas",
+    "Pasted image 20241114184016.png",
+    "Untitled.md",
     "Work_Journal/Hackthon.md",
     "Work_Journal/Reflection.md",
-    "Work_Journal/2024-11-27.md",
     "Work_Journal/2024-11-25.md",
     "Work_Journal/2024-11-19.md",
     "Work_Journal/2024-11-15.md",
@@ -304,7 +303,6 @@
     "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-11-07.md",
     "Work_Journal/2024-W27.md",
-    "Work_Journal/Benefit Log.md",
     "Work_Journal/Work Plan.md",
     "Data Management Guideline.md",
     "Machine Learning code library Guideline.md",
