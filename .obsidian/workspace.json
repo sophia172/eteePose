@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-12-02.md",
+                "file": "Work_Journal/TO-DO list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-02"
+              "title": "TO-DO list"
             }
           },
           {
@@ -276,8 +276,8 @@
   },
   "active": "e190433db0b45a19",
   "lastOpenFiles": [
-    "Work_Journal/2024-11-27.md",
     "Work_Journal/2024-12-02.md",
+    "Work_Journal/2024-11-27.md",
     "Work_Journal/Benefit Log.md",
     "Work_Journal/TO-DO list.md",
     "eteePose/eteePose MindMap.canvas",
