@@ -56,17 +56,14 @@
             "id": "e190433db0b45a19",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ChatBot/chatbot.canvas",
-                "viewState": {
-                  "x": -109.5695742228479,
-                  "y": -513.5820770214794,
-                  "zoom": -0.889866365259381
-                }
+                "file": "Work_Journal/2024-12-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "chatbot"
+              "icon": "lucide-file",
+              "title": "2024-12-02"
             }
           },
           {
@@ -281,6 +278,8 @@
   "lastOpenFiles": [
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-12-02.md",
+    "Work_Journal/Work Plan.md",
+    "ChatBot/chatbot.canvas",
     "Work_Journal/2024-11-27.md",
     "Work_Journal/Benefit Log.md",
     "eteePose/eteePose MindMap.canvas",
@@ -296,7 +295,6 @@
     "Work_Journal/2024-11-13.md",
     "Untitled",
     "Pasted image 20241114185922.png",
-    "ChatBot/chatbot.canvas",
     "ChatBot/Server setup note.md",
     "Work_Journal/2024-11-08.md",
     "Work_Journal/2024-11-04.md",
@@ -306,10 +304,8 @@
     "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-11-07.md",
     "Work_Journal/2024-W27.md",
-    "Work_Journal/Work Plan.md",
     "Data Management Guideline.md",
     "Machine Learning code library Guideline.md",
-    "Work_Journal/2024-10-31.md",
     "eteePose/PPIT mindmap.canvas",
     "ChatBot",
     "gitignore.txt",
