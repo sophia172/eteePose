@@ -56,14 +56,17 @@
             "id": "e190433db0b45a19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work_Journal/2024-12-02.md",
-                "mode": "source",
-                "source": false
+                "file": "ChatBot/chatbot.canvas",
+                "viewState": {
+                  "x": 85.5,
+                  "y": -190.5,
+                  "zoom": -1.120518455409537
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-12-02"
+              "icon": "lucide-layout-dashboard",
+              "title": "chatbot"
             }
           },
           {
@@ -276,8 +279,8 @@
   },
   "active": "e190433db0b45a19",
   "lastOpenFiles": [
-    "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-12-02.md",
+    "Work_Journal/TO-DO list.md",
     "Work_Journal/Work Plan.md",
     "ChatBot/chatbot.canvas",
     "Work_Journal/2024-11-27.md",
