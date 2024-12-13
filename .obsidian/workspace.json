@@ -11,10 +11,17 @@
             "id": "83fd313adae7b93b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "eteePose/eteePose MindMap.canvas",
+                "viewState": {
+                  "x": 41.359653645679685,
+                  "y": -634.0789685516384,
+                  "zoom": -0.5600016239195417
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "eteePose MindMap"
             }
           }
         ]
@@ -170,16 +177,16 @@
   },
   "active": "83fd313adae7b93b",
   "lastOpenFiles": [
+    "ChatBot/chatbot.canvas",
+    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-11-01.md",
     "Work_Journal/2024-11-05.md",
     "Work_Journal/2024-11-15.md",
-    "eteePose/eteePose MindMap.canvas",
     "Work_Journal/2024-11-27.md",
     "Work_Journal/2024-12-02.md",
     "Work_Journal/2024-12-09.md",
-    "ChatBot/chatbot.canvas",
     "Work_Journal/Work Plan.md",
     "Work_Journal/Benefit Log.md",
     "Pasted image 20241114184016.png",
