@@ -12,7 +12,7 @@
 		{"id":"a26642180490284e","type":"text","text":"Diffusion","x":-667,"y":-664,"width":125,"height":51},
 		{"id":"c72c91275bf8aab9","type":"text","text":"Model Fusion","x":-81,"y":-378,"width":156,"height":50},
 		{"id":"297e053d37c83da4","type":"text","text":"ViT","x":-226,"y":-601,"width":106,"height":50},
-		{"id":"a5a30d9eb5f58318","type":"text","text":"Human Pose Estimation","x":-316,"y":-770,"width":160,"height":52},
+		{"id":"a5a30d9eb5f58318","type":"text","text":"Human Pose Estimation","x":-316,"y":-750,"width":160,"height":52},
 		{"id":"7140c9482711be93","type":"text","text":"ViTpose","x":-120,"y":-729,"width":117,"height":50},
 		{"id":"ef40d6b1a2cf98ab","type":"text","text":"Application","x":440,"y":-423,"width":144,"height":50},
 		{"id":"bcb43092fef576b5","type":"text","text":"Seamless walk","x":584,"y":-563,"width":126,"height":50},
