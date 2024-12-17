@@ -11,17 +11,14 @@
             "id": "83fd313adae7b93b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "eteePose/eteePose MindMap.canvas",
-                "viewState": {
-                  "x": -424.8047958398792,
-                  "y": -454.6970578794366,
-                  "zoom": -0.5600016239195417
-                }
+                "file": "Work_Journal/2024-12-17.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "eteePose MindMap"
+              "icon": "lucide-file",
+              "title": "2024-12-17"
             }
           }
         ]
@@ -177,9 +174,8 @@
   },
   "active": "83fd313adae7b93b",
   "lastOpenFiles": [
-    "Work_Journal/2024-12-17.md",
-    "ChatBot/chatbot.canvas",
     "eteePose/eteePose MindMap.canvas",
+    "ChatBot/chatbot.canvas",
     "Work_Journal/TO-DO list.md",
     "Work_Journal/2024-11-06.md",
     "Work_Journal/2024-11-01.md",
