@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work_Journal/2024-12-17.md",
+                "file": "2025 Project Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-17"
+              "title": "2025 Project Plan"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2025 Project Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025 Project Plan"
             }
           },
           {
@@ -111,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2025 Project Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2025 Project Plan"
             }
           },
           {
@@ -172,38 +174,47 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "83fd313adae7b93b",
+  "active": "19da2a73dd17451b",
   "lastOpenFiles": [
-    "eteePose/eteePose MindMap.canvas",
-    "Work_Journal/2024-12-17.md",
-    "ChatBot/chatbot.canvas",
-    "Work_Journal/TO-DO list.md",
-    "Work_Journal/2024-11-06.md",
-    "Work_Journal/2024-11-01.md",
-    "Work_Journal/2024-11-05.md",
-    "Work_Journal/2024-11-15.md",
-    "Work_Journal/2024-11-27.md",
-    "Work_Journal/2024-12-02.md",
-    "Work_Journal/2024-12-09.md",
-    "Work_Journal/Work Plan.md",
     "Work_Journal/Benefit Log.md",
-    "Pasted image 20241114184016.png",
+    "Work_Journal/Work Plan.md",
+    "2025 Project Plan.md",
+    "Work_Journal/2025-01-10.md",
+    "image/Pasted image 20241114184016.png",
+    "Machine Learning code library Guideline.md",
+    "image",
+    "Data Management Guideline.md",
     "Untitled.md",
-    "Work_Journal/Hackthon.md",
+    "image/Pasted image 20250110113110.png",
+    "Work_Journal/TO-DO list.md",
+    "image/Pasted image 20250110112211.png",
+    "image/Pasted image 20250110111338.png",
+    "image/Pasted image 20250110110948.png",
+    "image/Pasted image 20250110110634.png",
+    "image/Pasted image 20250110105847.png",
+    "image/Pasted image 20250110105822.png",
+    "Work_Journal/2024/2024 Summary.md",
+    "Work_Journal/2024/2024-05-13.md",
+    "Work_Journal/2024",
     "Work_Journal/Reflection.md",
-    "Work_Journal/2024-11-25.md",
-    "Work_Journal/2024-11-19.md",
-    "Work_Journal/2024-11-12.md",
-    "Work_Journal/2024-11-13.md",
-    "Untitled",
-    "Pasted image 20241114185922.png",
-    "ChatBot/Server setup note.md",
-    "Work_Journal/2024-11-08.md",
-    "Work_Journal/2024-11-04.md",
-    "Work_Journal/2024-05-27.md",
-    "Work_Journal/2024-10-30.md",
-    "Work_Journal/2024-11-07.md",
-    "Work_Journal/2024-W27.md",
+    "Work_Journal/2024/2024-12-02.md",
+    "Work_Journal/2025-01-09.md",
+    "Work_Journal/2024/2024-12-17.md",
+    "eteePose/eteePose MindMap.canvas",
+    "Work_Journal/2024/2024-12-09.md",
+    "Work_Journal/2024/2024-11-27.md",
+    "Work_Journal/2024/2024-11-25.md",
+    "Work_Journal/2024/2024-11-19.md",
+    "Work_Journal/2024/2024-11-15.md",
+    "Work_Journal/2024/2024-11-13.md",
+    "Work_Journal/2024/2024-11-12.md",
+    "Work_Journal/2024/2024-11-08.md",
+    "Work_Journal/2024/2024-11-07.md",
+    "Work_Journal/2024/2024-11-06.md",
+    "Work_Journal/2024/2024-11-05.md",
+    "Work_Journal/2024/2024-11-04.md",
+    "ChatBot/chatbot.canvas",
+    "image/Pasted image 20241114185922.png",
     "eteePose/PPIT mindmap.canvas",
     "ChatBot",
     "gitignore.txt",

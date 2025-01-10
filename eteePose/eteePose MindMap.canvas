@@ -26,7 +26,6 @@
 		{"id":"676ae2fda2a2c91a","type":"text","text":"ESR","x":-461,"y":-774,"width":125,"height":60},
 		{"id":"0919ef90127d0a5b","type":"text","text":"ESC","x":-604,"y":-779,"width":91,"height":50},
 		{"id":"475d7e84518b095d","type":"text","text":"Simplifier","x":-920,"y":-743,"width":160,"height":50},
-		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-611,"y":-1160,"width":246,"height":160},
 		{"id":"18041fb64b23c245","type":"text","text":"[pretrain](https://notability.com/n/2nA6MizUC0p91DKID_tYk_)","x":-488,"y":-909,"width":149,"height":56},
 		{"id":"c2be12560b0c2168","type":"text","text":"Transfer Learning","x":-1062,"y":-878,"width":142,"height":99},
 		{"id":"7d94c41468e897fb","type":"text","text":"Metrics","x":-428,"y":-80,"width":126,"height":60},
@@ -39,7 +38,11 @@
 		{"id":"b0b138dd0711494b","type":"text","text":"![[Pasted image 20241114185922.png]]","x":-179,"y":-1080,"width":319,"height":171},
 		{"id":"11759e6a8d0e6fa0","type":"text","text":"![[Pasted image 20241114184016.png]]","x":73,"y":130,"width":807,"height":550},
 		{"id":"da848a52e21225cd","type":"text","text":"animation to show discrepancy and gt skeleton","x":-371,"y":307,"width":326,"height":98},
-		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-643,"y":-194,"width":105,"height":50}
+		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-643,"y":-194,"width":105,"height":50},
+		{"id":"91972c8c1d886098","x":-948,"y":1,"width":250,"height":60,"color":"1","type":"text","text":"Predict joint angle. But use coordinates MSE as loss"},
+		{"id":"8a39b63013146789","x":-829,"y":-1080,"width":250,"height":60,"type":"text","text":"keypoint"},
+		{"id":"2b326ff154ba93d4","x":-434,"y":-1111,"width":250,"height":60,"type":"text","text":"pressure"},
+		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-637,"y":-1400,"width":246,"height":160}
 	],
 	"edges":[
 		{"id":"f9f878b6e803651d","fromNode":"20b2ba16a757a956","fromSide":"top","toNode":"72ecbbb456bfe7e9","toSide":"bottom","color":"4"},
@@ -80,6 +83,9 @@
 		{"id":"9726d898d4fc2160","fromNode":"20b2ba16a757a956","fromSide":"bottom","toNode":"b938eb403d9bbbaa","toSide":"top"},
 		{"id":"a2bfef26691ba584","fromNode":"b938eb403d9bbbaa","fromSide":"bottom","toNode":"11759e6a8d0e6fa0","toSide":"top"},
 		{"id":"f015b70b1d8c6711","fromNode":"72ecbbb456bfe7e9","fromSide":"top","toNode":"b0b138dd0711494b","toSide":"bottom"},
-		{"id":"09b00c9daf72fb23","fromNode":"b938eb403d9bbbaa","fromSide":"bottom","toNode":"da848a52e21225cd","toSide":"top","color":"3"}
+		{"id":"09b00c9daf72fb23","fromNode":"b938eb403d9bbbaa","fromSide":"bottom","toNode":"da848a52e21225cd","toSide":"top","color":"3"},
+		{"id":"9ed7a5b65ad0d37c","fromNode":"7d94c41468e897fb","fromSide":"bottom","toNode":"91972c8c1d886098","toSide":"top"},
+		{"id":"484336d557e6e66b","fromNode":"18041fb64b23c245","fromSide":"top","toNode":"8a39b63013146789","toSide":"bottom"},
+		{"id":"a91e630e9c1e9c0e","fromNode":"18041fb64b23c245","fromSide":"top","toNode":"2b326ff154ba93d4","toSide":"bottom"}
 	]
 }
