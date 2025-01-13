@@ -34,14 +34,14 @@
 		{"id":"d4c38ffec4dd8cbd","type":"text","text":"Use MIM to pretrain with only mat data.","x":444,"y":-778,"width":250,"height":60},
 		{"id":"63b5c6719bc1765e","type":"text","text":"attention?","x":-304,"y":-933,"width":131,"height":52},
 		{"id":"49ca479550ac5a95","type":"text","text":"Reversal approach","x":205,"y":-661,"width":250,"height":60},
-		{"id":"b938eb403d9bbbaa","type":"text","text":"Visualisation\n","x":73,"y":-63,"width":167,"height":86},
+		{"id":"b938eb403d9bbbaa","type":"text","text":"Visualisation\n","x":73,"y":-63,"width":221,"height":50},
 		{"id":"b0b138dd0711494b","type":"text","text":"![[Pasted image 20241114185922.png]]","x":-179,"y":-1080,"width":319,"height":171},
 		{"id":"11759e6a8d0e6fa0","type":"text","text":"![[Pasted image 20241114184016.png]]","x":73,"y":130,"width":807,"height":550},
 		{"id":"da848a52e21225cd","type":"text","text":"animation to show discrepancy and gt skeleton","x":-371,"y":307,"width":326,"height":98},
 		{"id":"28c568ab5dc25c59","type":"text","text":"RNN","x":-643,"y":-194,"width":105,"height":50},
-		{"id":"91972c8c1d886098","x":-948,"y":1,"width":250,"height":60,"color":"1","type":"text","text":"Predict joint angle. But use coordinates MSE as loss"},
-		{"id":"8a39b63013146789","x":-829,"y":-1080,"width":250,"height":60,"type":"text","text":"keypoint"},
-		{"id":"2b326ff154ba93d4","x":-434,"y":-1111,"width":250,"height":60,"type":"text","text":"pressure"},
+		{"id":"91972c8c1d886098","type":"text","text":"Predict joint angle. But use coordinates MSE as loss","x":-948,"y":1,"width":250,"height":104,"color":"1"},
+		{"id":"8a39b63013146789","type":"text","text":"keypoint","x":-829,"y":-1080,"width":250,"height":60},
+		{"id":"2b326ff154ba93d4","type":"text","text":"pressure","x":-434,"y":-1111,"width":250,"height":60},
 		{"id":"499f54c24b9bbd89","type":"text","text":"Grey: Not touched\nGreen: Working on\nPurple: TODO for Qinghua\nYellow: TODO for Ying","x":-637,"y":-1400,"width":246,"height":160}
 	],
 	"edges":[
