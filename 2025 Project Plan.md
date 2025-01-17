@@ -114,3 +114,7 @@ From the previous identified challenges and problems, Think about a project.
 
 
 
+## Challenge they run into in the project. 
+
+## what kind of application do you see TG0 works on
+## Are they going to be related to AI.
